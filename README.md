@@ -27,20 +27,19 @@ Deep learning is a broad field. In this course, you might work on:
 
 The simplest workflow is:
 
-1. read `01-technical-paths.md`
-2. read `02-application-domains.md`
-3. choose a domain in `domains/`
-4. read `03-assignment-brief.md`
-5. read `04-generic-support-tooling.md` for supporting tools such as web interfaces, APIs, frontend choices, and packaging
+1. read `01-assignment-brief.md`
+2. read `02-technical-paths.md`
+3. read `03-application-domains.md` and then choose a domain in `domains/`
+4. read `04-generic-support-tooling.md` for supporting tools such as web interfaces, APIs, frontend choices, and packaging
 
 ## Repository Structure
 
-- `01-technical-paths.md`
-  High-level map of the main technical paths you can choose.
-- `02-application-domains.md`
-  High-level map of the main application domains, with links to the matching files in `domains/`.
-- `03-assignment-brief.md`
+- `01-assignment-brief.md`
   Assignment expectations and scope.
+- `02-technical-paths.md`
+  High-level map of the main technical paths you can choose.
+- `03-application-domains.md`
+  High-level map of the main application domains, with links to the matching files in `domains/`.
 - `04-generic-support-tooling.md`
   Optional shared tooling for interfaces, APIs, frontend choices, and packaging.
 - `domains/`

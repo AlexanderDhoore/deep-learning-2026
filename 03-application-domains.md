@@ -1,6 +1,6 @@
 # Application Domains
 
-Use this file after `01-technical-paths.md`.
+Use this file after `02-technical-paths.md`.
 
 The technical path tells you **how** you want to work with models.
 The application domain tells you **what kind of data or problem** you want to work on.

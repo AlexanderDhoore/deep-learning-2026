@@ -22,11 +22,12 @@ The goal is to help you answer four practical questions:
 
 Suggested workflow:
 
-1. start with `01-technical-paths.md`
-2. read `02-application-domains.md`
-3. pick one domain in this folder
-4. open the linked official docs
-5. build a small first prototype
+1. start with `01-assignment-brief.md`
+2. read `02-technical-paths.md`
+3. read `03-application-domains.md`
+4. pick one domain in this folder
+5. open the linked official docs
+6. build a small first prototype
 
 Current domain notes:
 
