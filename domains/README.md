@@ -1,6 +1,6 @@
 # Project Domains
 
-This folder contains one short note per student-facing project direction.
+This folder contains one short note per student-facing project domain.
 
 Most files are true application domains.
 Two files are slightly different:
@@ -8,7 +8,7 @@ Two files are slightly different:
 - reinforcement learning and control
 - edge AI and deployment
 
-Those are not pure domains in the academic sense, but they are important project directions for this course, so they are kept here for easier navigation.
+Those are not pure domains in the academic sense, but they are important project options for this course, so they are kept here for easier navigation.
 
 Use these files after the kickoff presentation.
 
@@ -23,7 +23,7 @@ The goal is to help you answer four practical questions:
 Suggested workflow:
 
 1. start with `01-strategic-project-paths.md`
-2. read `02-overview-and-project-directions.md`
+2. read `02-overview-and-project-domains.md`
 3. pick one domain in this folder
 4. open the linked official docs
 5. build a small first prototype

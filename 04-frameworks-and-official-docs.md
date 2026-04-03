@@ -14,7 +14,7 @@ This page keeps only the things that are shared across several domains:
 
 The practical workflow is:
 
-1. choose a project direction in `domains/`
+1. choose a project domain in `domains/`
 2. use that file to find the domain-specific AI frameworks
 3. come back to this page only if you need shared tooling or broad ecosystem links
 

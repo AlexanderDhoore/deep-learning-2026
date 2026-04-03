@@ -2,7 +2,7 @@
 
 This domain is about systems that understand audio or generate audio.
 
-If you like voice interfaces, music, sound, interactive demos, or systems that feel very alive when people try them, this is a very strong direction for a project.
+If you like voice interfaces, music, sound, interactive demos, or systems that feel very alive when people try them, this is a very strong domain for a project.
 
 It is also one of the most demo-friendly domains in the course, because the input and output are immediately understandable to almost everyone.
 

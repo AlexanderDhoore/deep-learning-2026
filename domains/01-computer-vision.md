@@ -2,7 +2,7 @@
 
 Computer vision is one of the clearest and most practical deep-learning domains.
 
-If you like images, video, cameras, inspection, or visual demos, this is a very strong project direction for this course.
+If you like images, video, cameras, inspection, or visual demos, this is a very strong project domain for this course.
 
 It is also one of the best domains if you want to build something that is easy to show and easy to explain during your final presentation.
 
@@ -309,4 +309,4 @@ If you can answer those four questions clearly, your project is probably well sc
 
 A simple detector with a clean demo is better than a huge project that never becomes stable.
 
-For this course, computer vision is one of the safest and strongest directions if you want a project that feels concrete, technical, and easy to present well.
+For this course, computer vision is one of the safest and strongest domains if you want a project that feels concrete, technical, and easy to present well.

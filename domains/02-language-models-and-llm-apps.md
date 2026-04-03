@@ -2,7 +2,7 @@
 
 This domain is about building AI systems that work mainly with text.
 
-If you like chat interfaces, assistants, writing tools, document workflows, or automation, this is one of the most accessible and flexible directions in the course.
+If you like chat interfaces, assistants, writing tools, document workflows, or automation, this is one of the most accessible and flexible domains in the course.
 
 It is also one of the most dangerous domains to scope badly.
 A small, focused text application is usually a strong project.
@@ -189,7 +189,7 @@ Example tools include:
 This is powerful because the system is no longer just "text in, text out".
 It becomes an application that can do things.
 
-That makes tool calling one of the strongest project directions in this domain.
+That makes tool calling one of the strongest project ideas in this domain.
 
 Good examples:
 

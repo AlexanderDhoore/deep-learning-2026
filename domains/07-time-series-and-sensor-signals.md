@@ -2,7 +2,7 @@
 
 This domain is about data measured over time.
 
-If you like sensors, devices, monitoring, forecasting, industrial systems, or signal-based problems, this is a very strong direction for a project.
+If you like sensors, devices, monitoring, forecasting, industrial systems, or signal-based problems, this is a very strong domain for a project.
 
 It is less flashy than image, audio, or chatbot projects, but it can be extremely meaningful and technically strong, especially in an electronics-ICT context.
 
@@ -220,7 +220,7 @@ Why choose this route:
 
 - strong product feel
 - easy to connect model output to a useful interface
-- very realistic engineering direction
+- very realistic engineering project
 
 ## Which Frameworks to Start With
 

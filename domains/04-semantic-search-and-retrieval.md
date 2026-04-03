@@ -2,7 +2,7 @@
 
 This domain is built around embeddings.
 
-If you like search, knowledge bases, document systems, or AI applications that work on real data instead of only the model's built-in knowledge, this is one of the strongest project directions in the course.
+If you like search, knowledge bases, document systems, or AI applications that work on real data instead of only the model's built-in knowledge, this is one of the strongest domains in the course.
 
 It is also one of the most practical modern AI workflows.
 Many useful AI systems today are not just "an LLM".
@@ -46,7 +46,7 @@ A simple retrieval system often looks like this:
 5. search for the nearest or most similar items
 6. show the results or pass them into another step
 
-That last step can go in two directions:
+That last step can go in two ways:
 
 - search-only workflow
   Show the most relevant results directly to the user.
@@ -96,7 +96,7 @@ For example:
 - build a chatbot over a knowledge base
 - find similar images or similar texts
 
-This domain is often less flashy than image generation, but it is one of the most realistic and reusable directions you can choose.
+This domain is often less flashy than image generation, but it is one of the most realistic and reusable options you can choose.
 
 ## Example Applications
 

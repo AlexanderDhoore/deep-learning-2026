@@ -13,14 +13,14 @@ The course is short and strongly practice-oriented. The main goal is not to cove
 
 - `01-strategic-project-paths.md`
   High-level map of the main technical paths you can choose.
-- `02-overview-and-project-directions.md`
+- `02-overview-and-project-domains.md`
   Main kickoff text for the lesson: broad field overview plus project-domain framing.
 - `03-assignment-brief.md`
   Assignment expectations and scope.
 - `04-frameworks-and-official-docs.md`
   Short shared-tools page for broad ecosystems, adaptation docs, and generic support tooling.
 - `domains/`
-  One short file per student-facing project direction. Most are application domains, and a few are important path-style options such as reinforcement learning and edge deployment.
+  One short file per student-facing project domain. Most are application domains, and a few are important path-style options such as reinforcement learning and edge deployment.
 - `slides/`
   Quarto-based slide deck source plus the generated PowerPoint for the kickoff presentation.
 

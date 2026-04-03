@@ -2,7 +2,7 @@
 
 This is a more niche domain, but it is real and worth mentioning.
 
-If you like spatial reasoning, 3D content, geometry, reconstruction, or unusual AI demos, this can be a very interesting project direction.
+If you like spatial reasoning, 3D content, geometry, reconstruction, or unusual AI demos, this can be a very interesting project domain.
 
 It is not the safest default for this course, but it can become a memorable and technically interesting project if you keep the scope small.
 
@@ -271,7 +271,7 @@ Choose this domain only if the spatial or 3D part is truly central to the idea.
 - prefer pretrained models over ambitious custom training
 - make sure the output can be visualized clearly
 - test one model end-to-end before building extra features
-- treat this as a niche direction, not the default safe option
+- treat this as a niche option, not the default safe option
 
 This domain can lead to one of the most unusual and memorable projects in the course, but only if you keep it narrow enough to stay stable.
 

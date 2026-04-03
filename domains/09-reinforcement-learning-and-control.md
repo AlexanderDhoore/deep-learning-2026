@@ -3,7 +3,7 @@
 Reinforcement learning is a special case in this folder.
 
 It is not a normal application domain like vision, language, or audio.
-It is a project direction built around a different way of learning.
+It is a project path built around a different way of learning.
 
 It is included here because, from a student point of view, it is still a clear path you might choose for your project.
 
@@ -35,7 +35,7 @@ This makes reinforcement learning feel very different from normal supervised tra
 
 ## Why You Might Choose It
 
-This is a strong project direction if you like:
+This is a strong project option if you like:
 
 - games
 - simulation
@@ -47,7 +47,7 @@ It is also one of the clearest examples of AI learning through interaction rathe
 
 This path is exciting because the model can discover strategies by itself.
 
-At the same time, it is riskier than many other directions because:
+At the same time, it is riskier than many other options because:
 
 - it can take more time
 - it can take more compute
@@ -81,7 +81,7 @@ This file is itself about `Path 4: Reinforcement Learning and Control`.
 So unlike the other files in `domains/`, this is not mainly about a modality.
 It is about a learning setup.
 
-That means you should choose this direction if the central challenge of your project is:
+That means you should choose this path if the central challenge of your project is:
 
 - training an agent through reward
 - designing an environment
@@ -241,6 +241,6 @@ In RL, reward design and environment definition are often more important than fa
 - make sure you have a clear success metric
 - prefer a small working agent over a huge ambitious environment
 
-This is one of the most interesting project directions in the course, but also one of the riskiest.
+This is one of the most interesting project options in the course, but also one of the riskiest.
 
 For this course, the strongest RL projects are usually simple, focused, and simulation-based.

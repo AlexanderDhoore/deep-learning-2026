@@ -3,7 +3,7 @@
 Edge AI and deployment is also a special case in this folder.
 
 It is not a pure application domain like vision, language, or audio.
-It is a project direction centered on where the model runs and how well it runs there.
+It is a project path centered on where the model runs and how well it runs there.
 
 It is included here because, from a student point of view, it is still a clear project path you might choose.
 
@@ -19,7 +19,7 @@ The edge deployment path is about running a model somewhere else, such as:
 - on another embedded or edge device
 - on a smaller local machine instead of a large server
 
-In this direction, the challenge is often not training a brand-new model.
+In this path, the challenge is often not training a brand-new model.
 The challenge is:
 
 - exporting the model
@@ -54,7 +54,7 @@ That means you can realistically choose an edge-deployment project and target re
 
 ## Why You Might Choose It
 
-This is a strong direction for the course if you like:
+This is a strong option for the course if you like:
 
 - embedded systems
 - optimization
@@ -72,7 +72,7 @@ This path is especially strong if you want your project to answer questions like
 - What runtime works best?
 - What tradeoffs appear on smaller devices?
 
-That makes it a very realistic engineering direction.
+That makes it a very realistic engineering project.
 
 ## What Kinds of Projects Fit Here
 
@@ -86,7 +86,7 @@ Good project ideas include:
 - export a vision model and test it on edge hardware
 - compare server inference and local inference
 
-This direction fits especially well with:
+This path fits especially well with:
 
 - computer vision
 - local LLM serving
@@ -263,4 +263,4 @@ If those answers are clear, the project is probably well scoped.
 
 A clean deployment demo with good measurements is usually stronger than a very ambitious project that tries to redesign the whole model as well.
 
-For this course, this is one of the strongest directions if you like systems engineering and want a project that connects AI to real hardware and real deployment constraints.
+For this course, this is one of the strongest options if you like systems engineering and want a project that connects AI to real hardware and real deployment constraints.

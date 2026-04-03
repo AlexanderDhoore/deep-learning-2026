@@ -4,7 +4,7 @@ This folder contains Quarto-based slides that can be rendered to PowerPoint usin
 
 ## Files
 
-- `deep-learning-project-directions.qmd`
+- `deep-learning-project-domains.qmd`
   The current 30-minute kickoff presentation.
 - `template-deep-learning.pptx`
   The PowerPoint reference template used for rendering the deck.
@@ -32,7 +32,7 @@ http://localhost:8080
 cd /root/deep-learning-2026/slides
 docker build -t deep-learning-slides .
 docker run --rm -v "$(pwd)":/data -w /data deep-learning-slides \
-  quarto render deep-learning-project-directions.qmd
+  quarto render deep-learning-project-domains.qmd
 ```
 
 The rendered file will be written next to the `.qmd`.
