@@ -27,7 +27,7 @@ Deep learning is a broad field. In this course, you might work on:
 
 The simplest workflow is:
 
-1. read `01-strategic-project-paths.md`
+1. read `01-technical-paths.md`
 2. read `02-application-domains.md`
 3. choose a domain in `domains/`
 4. read `03-assignment-brief.md`
@@ -35,7 +35,7 @@ The simplest workflow is:
 
 ## Repository Structure
 
-- `01-strategic-project-paths.md`
+- `01-technical-paths.md`
   High-level map of the main technical paths you can choose.
 - `02-application-domains.md`
   High-level map of the main application domains, with links to the matching files in `domains/`.

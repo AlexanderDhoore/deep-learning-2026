@@ -1,8 +1,8 @@
 # Application Domains
 
-Use this file after `01-strategic-project-paths.md`.
+Use this file after `01-technical-paths.md`.
 
-The strategic path tells you **how** you want to work with models.
+The technical path tells you **how** you want to work with models.
 The application domain tells you **what kind of data or problem** you want to work on.
 
 This file is only a high-level map.

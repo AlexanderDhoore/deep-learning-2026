@@ -1,4 +1,4 @@
-# Strategic Project Paths
+# Technical Paths
 
 This file helps you choose a high-level project path for the course.
 

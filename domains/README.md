@@ -22,7 +22,7 @@ The goal is to help you answer four practical questions:
 
 Suggested workflow:
 
-1. start with `01-strategic-project-paths.md`
+1. start with `01-technical-paths.md`
 2. read `02-application-domains.md`
 3. pick one domain in this folder
 4. open the linked official docs
