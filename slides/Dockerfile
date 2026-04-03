@@ -1,6 +1,6 @@
 FROM python:3.12.10
 
-ARG QUARTO_VERSION=1.7.31
+ARG QUARTO_VERSION=1.9.36
 
 WORKDIR /data
 
@@ -20,4 +20,3 @@ RUN wget -q "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUART
 EXPOSE 8080
 
 CMD quarto preview /data/$QUARTO_FILE --port 8080 --host 0.0.0.0
-

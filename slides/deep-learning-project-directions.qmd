@@ -3,7 +3,7 @@ title: "Deep Learning 2026: Project Paths, Frameworks, and Directions"
 author: "Alexander D'hoore"
 format:
   pptx:
-    reference-doc: template-mlops.pptx
+    reference-doc: template-mlops-clean.pptx
     monofont: "Cousine"
 ---
 
@@ -313,4 +313,3 @@ These are usually easier to scope well than reinforcement learning or large-mode
 - choose a framework stack
 - sketch a project idea
 - start building
-
