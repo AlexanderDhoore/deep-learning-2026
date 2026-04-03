@@ -13,11 +13,19 @@ They are also based on the kind of technical path you choose.
 
 Choose this path if you want to train or retrain a model in a relatively classical deep-learning workflow.
 
+What this path means:
+
+- you prepare data
+- you choose a model
+- you train it
+- you evaluate it
+- you deploy or demo it
+
 Important note:
 
 this path can still start from a pretrained model.
 
-For example:
+For example, you can:
 
 - start from a pretrained MobileNet
 - replace the last layer if needed
@@ -53,6 +61,7 @@ Why this path is useful:
 
 - it teaches the basic deep-learning workflow directly
 - dataset -> model -> training -> evaluation -> deployment
+- it helps you understand what "training a model" really means
 
 Useful keywords:
 
@@ -64,6 +73,13 @@ Useful keywords:
 ## Path 2: Build With Pretrained Foundation Models
 
 Choose this path if you want to use existing pretrained models instead of training from scratch.
+
+What this path means:
+
+- you pick a model that already exists
+- you run it or combine it with other tools
+- you build an application around it
+- the main work is in the system you build, not in the training process
 
 Typical areas:
 
@@ -80,6 +96,11 @@ Typical framework stack:
 - Ollama
 - Sentence Transformers
 
+Where to explore:
+
+- Hugging Face is one of the best places to browse model cards, tasks, and examples
+- it is a very good source of inspiration if you do not yet know what to build
+
 Good examples:
 
 - chatbot
@@ -94,6 +115,7 @@ Why this path is useful:
 
 - this is how much modern AI development actually works
 - many useful systems are built on top of pretrained models
+- it is often the fastest way to get to a working prototype
 
 ## Path 3: Fine-Tune or Adapt Pretrained Models
 
@@ -135,6 +157,12 @@ Typical parameter-efficient methods:
 - adapters
 - DreamBooth-style adaptation
 
+What this path means in practice:
+
+- you do more than prompting
+- you do less than full retraining
+- you change part of the model so it better fits your own domain, task, or style
+
 Typical areas:
 
 - LLM fine-tuning
@@ -153,6 +181,7 @@ Good examples:
 
 - adapt a small LLM to a narrow task
 - fine-tune an image generation model on a style
+- fine-tune an image model on your own face or visual identity
 - adapt a model to a domain-specific dataset
 
 Why this path is useful:
@@ -164,6 +193,13 @@ Why this path is useful:
 ## Path 4: Reinforcement Learning and Control
 
 Choose this path if you want to build agents that learn through reward and interaction.
+
+What makes this path different:
+
+- the model is not trained only from labeled examples
+- it interacts with an environment
+- it tries actions, receives rewards, and improves over time
+- the environment can be a game, a simulator, or a physical system
 
 Typical framework stack:
 
@@ -182,14 +218,23 @@ Why this path is useful:
 
 - it is a major deep-learning area
 - it strongly appeals if you are interested in games, robotics, or control
+- it is one of the clearest examples of AI learning by interaction
 
 Risk note:
 
 - this path is interesting, but harder to scope well in a short course
+- it can also need more compute and more time than other paths
 
 ## Path 5: Edge AI and Deployment
 
 Choose this path if you care most about getting a model to run efficiently on real hardware.
+
+What this path means:
+
+- many projects will run on your GPU server
+- this path is about running a model somewhere else
+- for example on a laptop, Jetson, Raspberry Pi, or another embedded device
+- the main challenge is not only the model, but also where and how it runs
 
 Typical framework stack:
 
@@ -212,6 +257,7 @@ Why this path is useful:
 - it fits electronics-ICT very well
 - it connects deep learning to real systems engineering
 - it teaches that deployment is part of AI, not an afterthought
+- it lets you focus on export, optimization, latency, and runtime choice
 
 ## Secondary Project Dimensions
 

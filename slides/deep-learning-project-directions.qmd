@@ -92,81 +92,73 @@ Examples:
 
 ## Path 1: Train or Retrain Your Own Model
 
-- This is the classical deep-learning workflow:
-  - dataset
-  - model
-  - training
-  - evaluation
-  - deployment
-- Important:
-  - this can still start from a pretrained model
-  - for example MobileNet, YOLO, or another pretrained model
-  - then you continue training it on your own data
-- Good tools:
-  - PyTorch
-  - torchvision / torchaudio
-  - YOLO
-  - RF-DETR
+- This is the classical deep-learning workflow.
+- Typical flow: dataset, model, training, evaluation, deployment.
+- You may start from random weights or pretrained weights.
+- Example: continue training MobileNet or YOLO on your own data.
+
+## Path 1: Why You Might Choose It
+
+- Good if you want to understand how model training really works.
+- Strong domains: vision, audio, time-series, classification.
+- Good tools: PyTorch, torchvision, torchaudio, YOLO, RF-DETR.
+- Good projects: classifier, detector, anomaly detector.
 
 ## Path 2: Build With Pretrained Foundation Models
 
-- Here the main work is **building around a model**, not training it from scratch.
-- This is how many modern AI applications are made.
-- Good examples:
-  - chatbot
-  - multimodal assistant
-  - speech tool
-  - image generator
-  - semantic search app
-- Good tools:
-  - Hugging Face Transformers
-  - Diffusers
-  - Ollama
-  - Sentence Transformers
+- Here the main work is **building around a model**, not training it yourself.
+- You choose an existing model and turn it into an application.
+- This is one of the most common modern AI workflows.
+- Strong path for text, speech, multimodal systems, and generation.
+
+## Path 2: Where To Explore
+
+- Hugging Face is one of the best places to browse models, tasks, and examples.
+- Model cards help you understand what a model can do.
+- Good tools: Transformers, Diffusers, Sentence Transformers, Ollama.
+- Good projects: chatbot, speech tool, image generator, document assistant.
 
 ## Path 3: Adapt or Fine-Tune Large Models
 
-- This is different from normal transfer learning on a smaller model.
-- For large foundation models, it is often not practical to retrain everything.
-- Instead, you adapt part of the model using methods such as:
-  - LoRA
-  - PEFT
-  - adapters
-  - DreamBooth-style adaptation
-- This path is powerful, but more ambitious.
+- This is more than prompting, but less than training from scratch.
+- For large models, retraining everything is often too expensive.
+- Instead, you adapt part of the model.
+- Common methods: LoRA, PEFT, adapters.
+
+## Path 3: Concrete Example
+
+- Example: fine-tune an image model on your own face or visual style.
+- Example: adapt an LLM to a narrow domain.
+- Good tools: Transformers training stack, PEFT, Diffusers, PyTorch.
+- This path is powerful, but more ambitious than simple inference.
 
 ## Path 4: Reinforcement Learning
 
-- Reinforcement learning is about learning through:
-  - interaction
-  - reward
-  - trial and error
-- In this course, the most realistic projects are probably:
-  - games
-  - simulations
-  - simple control tasks
-- Good tools:
-  - Gymnasium
-  - Stable-Baselines3
-  - TorchRL
+- This path is very different from supervised learning.
+- The model learns by interacting with an environment.
+- It tries actions, gets rewards, and improves over time.
+- The environment can be a game, simulation, or physical system.
 
-![](media/chaining-llms.png)
+## Path 4: Why It Is Interesting
+
+- The system discovers strategies by itself instead of copying labels.
+- Good projects: game agent, simulator, small control task.
+- Good tools: Gymnasium, Stable-Baselines3, TorchRL.
+- This path can need more compute and more time.
 
 ## Path 5: Edge AI and Deployment
 
-- You may want to focus less on training and more on **getting AI to run well on real hardware**.
-- That is a very valid project path.
-- Good examples:
-  - deploy a vision model to an edge device
-  - compare runtimes
-  - optimize latency
-  - deploy a small local LLM
-- Good tools:
-  - ONNX Runtime
-  - Jetson / JetPack / TensorRT
-  - Ollama or llama.cpp
+- Most of you will run models on your GPU server.
+- Edge AI means running the model somewhere else locally.
+- Examples: laptop, Jetson, Raspberry Pi, embedded device.
+- The challenge is export, optimization, latency, and runtime choice.
 
-![](media/edge-ai-hardware-reference.jpg)
+## Path 5: Why It Matters
+
+- Good if you like systems, deployment, and performance engineering.
+- You can focus on making an existing model run well.
+- Good tools: ONNX Runtime, JetPack, TensorRT, Ollama, llama.cpp.
+- Strong examples: deploy vision, compare runtimes, run a local LLM.
 
 # Application Directions
 

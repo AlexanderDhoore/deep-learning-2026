@@ -43,6 +43,16 @@ The idea is simple:
 
 ## Text, Language Models, and Multimodal Models
 
+### Hugging Face Hub
+
+- Main role: browse models, tasks, datasets, and model cards
+- Official site: <https://huggingface.co/models>
+- Good for:
+  - finding inspiration
+  - comparing pretrained models
+  - checking examples and usage notes
+  - exploring what already exists before you build
+
 ### Hugging Face Transformers
 
 - Main role: pretrained models for text, vision, audio, video, and multimodal use cases

@@ -87,6 +87,77 @@ One important distinction:
 
 So not every use of pretrained weights belongs in the same bucket.
 
+### Quick explanation of the five paths
+
+#### Path 1: Train or retrain your own model
+
+This is the classical workflow:
+
+- data
+- model
+- training
+- evaluation
+- deployment
+
+You can still start from pretrained weights.
+For example, you can take MobileNet or YOLO and continue training it on your own dataset.
+
+Good fit if you want to understand how model training really works.
+
+#### Path 2: Build with pretrained foundation models
+
+Here, you mostly use a model that already exists and build an application around it.
+
+That means:
+
+- less focus on training
+- more focus on system design
+- more focus on integrating models into a useful tool
+
+This is very close to what you already touched in the generative AI workshop.
+If you need inspiration, Hugging Face is one of the best places to explore models and tasks.
+
+#### Path 3: Fine-tune or adapt large models
+
+This path sits between Path 1 and Path 2.
+
+You are not training everything from scratch, but you are also doing more than simple inference.
+
+For very large models, it is often too expensive to retrain the whole model.
+So instead, you adapt part of it with methods such as:
+
+- LoRA
+- PEFT
+- adapters
+
+A concrete example is fine-tuning an image model on your own face or style.
+
+#### Path 4: Reinforcement learning
+
+This path is very different from normal supervised learning.
+
+Instead of learning only from labeled examples, the model:
+
+- interacts with an environment
+- tries actions
+- receives rewards
+- improves over time
+
+This is why reinforcement learning is strongly connected to games, simulations, robotics, and control.
+
+#### Path 5: Edge AI and deployment
+
+Many projects in this course will run on your GPU server.
+
+This path is about running a model somewhere else:
+
+- on your laptop
+- on a Jetson
+- on a Raspberry Pi
+- on another embedded or edge device
+
+Here the challenge is often export, optimization, latency, and runtime choice rather than training a brand-new model.
+
 ## 4. Then Choose an Application Direction
 
 After that, choose the application area where you want to apply that path.
