@@ -18,7 +18,7 @@ The course is short and strongly practice-oriented. The main goal is not to cove
 - `03-assignment-brief.md`
   Assignment expectations and scope.
 - `04-frameworks-and-official-docs.md`
-  Curated list of useful frameworks plus official docs to start from.
+  Short shared-tools page for broad ecosystems, adaptation docs, and generic support tooling.
 - `domains/`
   One short file per student-facing project direction. Most are application domains, and a few are important path-style options such as reinforcement learning and edge deployment.
 - `slides/`
