@@ -39,9 +39,16 @@ In particular, there are enough shared devices that students can usually borrow 
 
 - NVIDIA Jetson Orin
 - Radxa Rock 5B
-- Raspberry Pi with a Hailo HAT
 
-There are also other devices available in the broader environment, but these three are especially important because there are roughly 20 of each available for student lending.
+For the first two, there are roughly 20 of each available for student lending, so they are the safest hardware choices if you want to plan around borrowing a device.
+
+There are also extra devices in the broader environment, including:
+
+- Raspberry Pi with a Hailo HAT
+- NVIDIA DGX Spark
+
+The Raspberry Pi with Hailo HAT belongs more to that extra category rather than the large shared pool.
+The DGX Spark is also interesting for some students because it is a very powerful machine.
 
 That means you can realistically choose an edge-deployment project and target real hardware instead of only simulating deployment.
 
