@@ -96,8 +96,8 @@ Examples:
 ## What To Do Next
 
 - choose a technical path
-- choose a framework stack
-- choose an application domain
+- choose an application domain or framework stack
+- refine the other one
 - sketch a project idea
 - start building
 

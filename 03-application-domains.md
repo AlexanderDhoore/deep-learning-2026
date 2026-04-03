@@ -225,4 +225,4 @@ Choose a domain that feels:
 - easy enough to demo clearly
 - large enough to show real technical work
 
-Then open the matching file in `domains/`, choose a framework stack, and start building a small first prototype.
+Then open the matching file in `domains/`, choose a framework stack or model direction, and start building a small first prototype.

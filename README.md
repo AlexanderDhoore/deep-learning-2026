@@ -29,7 +29,7 @@ The simplest workflow is:
 
 1. read `01-assignment-brief.md`
 2. read `02-technical-paths.md`
-3. read `03-application-domains.md` and then choose a domain in `domains/`
+3. read `03-application-domains.md` and then explore one or more files in `domains/`
 4. read `04-supporting-tools.md` for supporting tools such as web interfaces, APIs, frontend choices, and packaging
 
 ## Repository Structure

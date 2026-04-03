@@ -2,12 +2,11 @@
 
 This file helps you choose a high-level project path for the course.
 
-The key idea is:
+Some students will start from a domain or problem they care about.
+Others will start from a framework stack or model type they want to explore.
+Both approaches are fine.
 
-you will probably choose a **framework stack first**, and then grow an application idea around it.
-
-So these categories are not only based on application domain.
-They are also based on the kind of technical path you choose.
+This file helps with the technical-path side of that choice.
 
 ## Path 1: Train Your Own Neural Network
 

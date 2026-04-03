@@ -44,7 +44,8 @@ format:
 
 ## First Choose a Technical Path
 
-- Before choosing an application, it is often easier to choose a **technical path**.
+- For many projects, it helps to choose a **technical path** early.
+- Other students will start from a domain or tool they already find interesting.
 - In this course, the main paths are:
   - train or retrain your own model
   - build with pretrained foundation models
@@ -381,9 +382,9 @@ Examples:
 ## What To Do Next
 
 - choose a technical path
-- choose an application domain
+- choose an application domain or framework stack
+- refine the other one
 - read the matching domain note
-- choose a framework stack
 - sketch a project idea
 - start building
 
