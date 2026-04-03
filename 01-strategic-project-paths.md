@@ -228,9 +228,9 @@ Why this path is useful:
 - it teaches that deployment is part of AI, not an afterthought
 - it lets you focus on export, optimization, latency, and runtime choice
 
-## Secondary Project Dimensions
+## Next Step: Choose an Application Domain
 
-After choosing a strategic path, choose an application area:
+After choosing a strategic path, choose an application domain:
 
 - computer vision
 - language models, text apps, and chat systems
@@ -240,7 +240,11 @@ After choosing a strategic path, choose an application area:
 - semantic search and retrieval
 - recommendation systems
 
-This two-level model is probably the best way to explain the field:
+Then continue with:
+
+- [`02-application-domains.md`](02-application-domains.md)
+
+The top-level flow for the course is:
 
 1. choose a technical path
 2. choose an application domain
