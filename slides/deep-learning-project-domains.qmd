@@ -1,5 +1,5 @@
 ---
-title: "Deep Learning 2026: Project Paths, Frameworks, and Domains"
+title: "Deep Learning 2026: Technical Paths and Application Domains"
 author: "Alexander D'hoore"
 format:
   pptx:
@@ -16,7 +16,7 @@ format:
 - Not deep theory, but a practical overview of what kinds of deep-learning systems you could build.
 - The main goal today:
   - choose a technical path
-  - choose a framework stack
+  - choose an application domain
   - start shaping your own project
 
 ![](media/generative-ai.png)
@@ -64,6 +64,7 @@ format:
   - speech and audio
   - time-series and sensor signals
   - 3D / depth / geometry
+- Reinforcement learning and edge deployment also have dedicated notes in `domains/`.
 
 ## A Good Project Formula
 
@@ -120,7 +121,8 @@ Examples:
 
 ## Path 3: Adapt or Fine-Tune Large Models
 
-- This is more than prompting, but less than training from scratch.
+- Choose this path if you want to adapt a large pretrained model to your own task or style.
+- This is more than prompting, but less than full retraining.
 - For large models, retraining everything is often too expensive.
 - Instead, you adapt part of the model.
 - Common methods: LoRA, PEFT, adapters.
@@ -130,7 +132,7 @@ Examples:
 - Example: fine-tune an image model on your own face or visual style.
 - Example: adapt an LLM to a narrow domain.
 - Good tools: Transformers training stack, PEFT, Diffusers, PyTorch.
-- This path is powerful, but more ambitious than simple inference.
+- This path is powerful if you want to go beyond simple inference.
 
 ## Path 4: Reinforcement Learning
 
@@ -328,7 +330,6 @@ Examples:
 - Language models usually fit Path 2 or Path 3.
 - Audio can use Path 1, Path 2, or Path 3.
 - Edge deployment can apply to many domains.
-- Generative behavior can appear in text, image, audio, or multimodal systems.
 
 # Framework Suggestions
 
@@ -336,11 +337,11 @@ Examples:
 
 - You do not need to memorize every framework from this talk.
 - The exact framework depends on the domain you choose.
-- Three big names to remember:
+- After choosing a domain, read the matching notes and official docs.
+- A few big names you will see often:
   - PyTorch
   - Transformers
   - Sentence Transformers
-- After choosing a domain, read the matching notes and official docs.
 
 ## Supporting Tools
 
@@ -349,9 +350,11 @@ Examples:
   - Streamlit
   - FastAPI
   - React or another custom frontend
+  - Docker
 - Most of you will probably build some kind of interface.
 - Gradio is a very good default if you want to move fast.
 - React gives more control, but also more complexity.
+- See `04-generic-support-tooling.md` in the repo for a short overview of these options.
 
 ![](media/frontend-user-interfaces.jpg)
 
@@ -378,6 +381,8 @@ Examples:
 ## What To Do Next
 
 - choose a technical path
+- choose an application domain
+- read the matching domain note
 - choose a framework stack
 - sketch a project idea
 - start building
