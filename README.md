@@ -21,8 +21,6 @@ The course is short and strongly practice-oriented. The main goal is not to cove
   Curated list of useful frameworks plus official docs to start from.
 - `domains/`
   One short file per application domain. These notes help you choose a domain and find the best official docs to continue with.
-- `technical-paths/`
-  Extra notes for paths that are important in the course, but are not really application domains.
 - `slides/`
   Quarto-based slide deck source plus the generated PowerPoint for the kickoff presentation.
 
@@ -44,5 +42,6 @@ The material is currently organized around:
 
 Generative AI is treated as a cross-cutting theme rather than one single modality next to vision or audio.
 That idea is explained directly in the top-level notes instead of in a separate folder.
+The technical paths are also explained directly in the top-level notes, especially in `01-strategic-project-paths.md`, instead of in a separate folder.
 
 The slide deck is a shorter subset of the written notes. If you want more context after the presentation, start with the top-level Markdown files and then open the matching file in `domains/`.
