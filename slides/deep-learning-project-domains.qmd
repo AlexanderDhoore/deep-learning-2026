@@ -144,7 +144,7 @@ Examples:
 - The system discovers strategies by itself instead of copying labels.
 - Good projects: game agent, simulator, small control task.
 - Good tools: Gymnasium, Stable-Baselines3, TorchRL.
-- This path can need more compute and more time.
+- This path works best when you keep the environment and goal simple.
 
 ## Path 5: Edge AI and Deployment
 

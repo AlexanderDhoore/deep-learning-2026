@@ -47,14 +47,13 @@ It is also one of the clearest examples of AI learning through interaction rathe
 
 This path is exciting because the model can discover strategies by itself.
 
-At the same time, it is riskier than many other options because:
+At the same time, it is more sensitive to scope than some other options because:
 
-- it can take more time
-- it can take more compute
 - environment design matters a lot
 - debugging can be less straightforward
+- smaller environments usually work much better than ambitious ones
 
-So it is a very interesting path, but it should be scoped carefully.
+So this is a very interesting path, and it works best when you keep the scope focused.
 
 ## Example Applications
 
@@ -241,6 +240,6 @@ In RL, reward design and environment definition are often more important than fa
 - make sure you have a clear success metric
 - prefer a small working agent over a huge ambitious environment
 
-This is one of the most interesting project options in the course, but also one of the riskiest.
+This is one of the most interesting project options in the course, especially if you keep it small and focused.
 
 For this course, the strongest RL projects are usually simple, focused, and simulation-based.

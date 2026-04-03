@@ -189,10 +189,10 @@ Why this path is useful:
 - it strongly appeals if you are interested in games, robotics, or control
 - it is one of the clearest examples of AI learning by interaction
 
-Risk note:
+Scoping advice:
 
-- this path is interesting, but harder to scope well in a short course
-- it can also need more compute and more time than other paths
+- this path can work very well in a short course if you keep the environment small
+- start with one clear task, one clear reward signal, and one simple demo
 
 ## Path 5: Edge AI and Deployment
 
