@@ -40,8 +40,6 @@ The material is currently organized around:
 2. application domains
 3. frameworks and official docs
 
-Generative AI is treated as a cross-cutting theme rather than one single modality next to vision or audio.
-That idea is explained directly in the top-level notes instead of in a separate folder.
 The technical paths are also explained directly in the top-level notes, especially in `01-strategic-project-paths.md`, instead of in a separate folder.
 
 The slide deck is a shorter subset of the written notes. If you want more context after the presentation, start with the top-level Markdown files and then open the matching file in `domains/`.
