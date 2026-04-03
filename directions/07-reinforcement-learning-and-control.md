@@ -17,6 +17,7 @@
 
 - Gymnasium
 - Stable-Baselines3
+- TorchRL
 - PyTorch
 
 ## Good advice
@@ -24,4 +25,4 @@
 - keep the environment simple
 - do not overscope
 - this direction is interesting but riskier than most others
-
+- for most students, Stable-Baselines3 is the safest starting point

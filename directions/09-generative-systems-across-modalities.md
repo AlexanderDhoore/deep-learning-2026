@@ -1,4 +1,4 @@
-# Direction 4: Generative AI
+# Cross-Cutting Theme: Generative Systems Across Modalities
 
 ## Good fit for students who like
 
@@ -14,6 +14,7 @@
 - image inpainting tool
 - text-to-image app
 - music generation demo
+- speech generation demo
 
 ## Strong starter tools
 
@@ -27,4 +28,4 @@
 - keep the application focused
 - do not try to combine too many generation modes at once
 - prioritize a clean demo over maximum complexity
-
+- remember that generation can happen in text, image, audio, or multimodal systems

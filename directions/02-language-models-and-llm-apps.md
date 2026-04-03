@@ -14,14 +14,12 @@
 - summarizer
 - classifier for messages or documents
 - question-answering tool
-- semantic search demo
 - tool-calling assistant
 
 ## Strong starter tools
 
 - Ollama
 - Hugging Face Transformers
-- Sentence Transformers
 - Gradio
 - FastAPI
 
@@ -30,4 +28,3 @@
 - narrow the scope
 - avoid trying to build a general chatbot for everything
 - give the app one clear purpose
-

@@ -87,6 +87,8 @@ Good examples:
 - speech-to-text tool
 - text-to-image tool
 - semantic search assistant
+- document understanding tool
+- recommendation prototype based on embeddings
 
 Why this path matters:
 
@@ -168,6 +170,7 @@ Typical framework stack:
 - Gymnasium
 - Stable-Baselines3
 - PyTorch
+- TorchRL as an optional PyTorch-native stack
 
 Good examples:
 
@@ -193,6 +196,7 @@ Typical framework stack:
 - ONNX Runtime
 - NVIDIA Jetson / JetPack
 - TensorRT
+- Ollama or llama.cpp for local LLM deployment
 - PyTorch export workflows
 
 Good examples:
@@ -201,6 +205,7 @@ Good examples:
 - compare runtimes
 - optimize latency
 - build an application around an embedded AI model
+- deploy a small local LLM on an edge-oriented machine
 
 Why this path matters:
 
@@ -212,17 +217,27 @@ Why this path matters:
 
 After choosing a strategic path, the student can choose an application area:
 
-- vision
-- language
-- audio
-- multimodal AI
-- time-series / industrial AI
-- generative AI
+- computer vision
+- language models, text apps, and chat systems
+- speech and audio
+- multimodal and document AI
+- time-series and sensor signals
+- semantic search, retrieval, and recommendation
+
+Generative systems are best treated as a cross-cutting theme:
+
+- text generation
+- image generation
+- audio generation
+- multimodal generation
 
 This two-level model is probably the best way to explain the field:
 
 1. choose a technical path
 2. choose an application domain
+
+So "generative AI" is not one separate modality next to vision or audio.
+It is something that can happen inside several modalities.
 
 ## Recommended Default Paths For Most Students
 
@@ -233,3 +248,5 @@ If a student is unsure, these are probably the best default choices:
 - Edge AI and Deployment
 
 These usually balance feasibility, learning value, and demo quality best.
+
+The "Fine-Tune or Adapt Pretrained Models" path is exciting, but probably best for students who are especially motivated and willing to work with more demanding tooling.

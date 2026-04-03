@@ -78,7 +78,7 @@ Because in practice, many students will first choose a framework they want to ex
 
 See also:
 
-- [`00-strategic-project-paths.md`](00-strategic-project-paths.md)
+- [`01-strategic-project-paths.md`](01-strategic-project-paths.md)
 
 One important distinction:
 
@@ -87,11 +87,11 @@ One important distinction:
 
 So not every use of pretrained weights belongs in the same bucket.
 
-## 4. Then Choose an Application Domain
+## 4. Then Choose an Application Direction
 
 After that, choose the application area where you want to apply that path.
 
-Below is a practical map of application domains.
+Below is a practical map of application directions.
 
 These are not rigid categories.
 They overlap.
@@ -132,7 +132,7 @@ Why it is a good student direction:
 - many pretrained models exist
 - easy to build a web app around it
 
-### Direction 2: Language Models and LLM Applications
+### Direction 2: Language Models, Text Apps, and Chat Systems
 
 This is about text-based AI systems.
 
@@ -199,39 +199,7 @@ Why it is a good student direction:
 - easy to combine with LLMs
 - good for multimodal demos
 
-### Direction 4: Generative AI for Images, Text, Audio, or Music
-
-This is about creating new content instead of only analyzing input.
-
-Typical tasks:
-
-- text generation
-- image generation
-- image editing / inpainting
-- music generation
-- story generation
-
-Typical examples:
-
-- a story generator
-- an AI poster maker
-- an image inpainting tool
-- a music prompt app
-
-Good tools:
-
-- Ollama
-- Hugging Face Diffusers
-- Transformers
-- Gradio
-
-Why it is a good student direction:
-
-- motivating and fun
-- strong visual or audio output
-- many students already saw the basics
-
-### Direction 5: Multimodal AI
+### Direction 4: Multimodal AI and Document AI
 
 This is about combining multiple input or output types:
 
@@ -245,6 +213,7 @@ Typical tasks:
 - visual question answering
 - image captioning
 - document understanding
+- OCR-enhanced document workflows
 - audio-aware assistants
 - systems that combine speech, vision, and text
 
@@ -253,6 +222,7 @@ Typical examples:
 - upload an image and ask questions about it
 - analyze a receipt or document
 - combine voice input with image understanding
+- build a document question-answering tool
 
 Good tools:
 
@@ -266,7 +236,7 @@ Why it is a good student direction:
 - shows that deep learning is broader than just chatbots
 - often creates strong demos
 
-### Direction 6: Time-Series and Industrial AI
+### Direction 5: Time-Series and Sensor Signals
 
 This is about signals measured over time.
 
@@ -294,9 +264,41 @@ Good tools:
 
 Why it is a good student direction:
 
-- relevant to industrial applications
+- relevant to industrial applications, but not limited to industry
 - good fit with electronics/ICT
 - does not need flashy graphics to be meaningful
+
+### Direction 6: Semantic Search, Retrieval, and Recommendation
+
+This is about turning data into embeddings and then using those embeddings to search, retrieve, rank, or recommend.
+
+Typical tasks:
+
+- semantic search
+- retrieval-augmented generation
+- recommendation
+- similarity matching
+- nearest-neighbor search
+
+Typical examples:
+
+- search through notes or documents by meaning
+- recommend songs, products, or media
+- build a chatbot that first retrieves relevant context
+- find similar images, texts, or items
+
+Good tools:
+
+- Sentence Transformers
+- Transformers
+- vector databases or plain vector search libraries
+- Gradio / Streamlit / FastAPI
+
+Why it is a good student direction:
+
+- very practical
+- highly relevant in modern AI products
+- easier to scope than many full fine-tuning projects
 
 ### Direction 7: Reinforcement Learning and Control
 
@@ -319,6 +321,7 @@ Good tools:
 
 - Gymnasium
 - Stable-Baselines3
+- TorchRL
 - PyTorch
 
 Why it is a possible student direction:
@@ -349,10 +352,13 @@ Typical examples:
 - deploy a small model on an edge device
 - compare CPU vs GPU vs optimized runtime
 - build a small web service around an optimized model
+- run a small local LLM on an edge-oriented machine
 
 Good tools:
 
 - ONNX Runtime
+- Ollama or llama.cpp
+- JetPack / TensorRT on NVIDIA edge hardware
 - PyTorch export flows
 - Ultralytics export tools
 - Docker
@@ -363,9 +369,23 @@ Why it is a good student direction:
 - strong engineering value
 - good fit with real systems thinking
 
+## 5. Cross-Cutting Theme: Generative Systems
+
+Generative AI is important, but it does not fit neatly as one single application domain next to vision or audio.
+
+It cuts across several areas:
+
+- language generation
+- image generation
+- speech generation
+- music generation
+- multimodal generation
+
+So instead of treating it as one separate modality, it is better to explain it as a **style of model behavior** that can appear in several domains.
+
 ---
 
-## 5. Which Frameworks Matter Most?
+## 6. Which Frameworks Matter Most?
 
 Students do not need to learn every framework.
 
@@ -377,8 +397,9 @@ For this course, the main **AI frameworks** worth pointing students toward are:
 - **Hugging Face Transformers** for text, multimodal, and pretrained model work
 - **Diffusers** for image generation and adaptation
 - **Sentence Transformers** for embeddings and semantic search
-- **Stable-Baselines3** for reinforcement learning
-- **ONNX Runtime**, **Jetson/JetPack**, and optionally **TensorRT** for deployment
+- **Stable-Baselines3** as the most student-friendly RL default
+- **TorchRL** as an optional PyTorch-native RL stack
+- **ONNX Runtime**, **Jetson/JetPack**, **TensorRT**, and optionally **Ollama / llama.cpp** for deployment
 
 Supporting tools such as **Gradio**, **Streamlit**, and **FastAPI** are useful, but they are not the main AI frameworks.
 They are optional support layers around the AI system.
@@ -387,10 +408,12 @@ For the students, a good mental model is:
 
 - `PyTorch` when you want to train or retrain a model more directly
 - `Transformers` / `Diffusers` when you want to build with or adapt large pretrained foundation models
+- `Sentence Transformers` when you want embeddings, retrieval, or recommendation
+- `Stable-Baselines3` when you want the easiest RL starting point
 
 ---
 
-## 6. Advice for Choosing a Project
+## 7. Advice for Choosing a Project
 
 Choose a project that is:
 
@@ -413,10 +436,11 @@ Bad choices are often:
 - too vague
 - too research-heavy
 - too dependent on collecting a huge custom dataset
+- too ambitious in both model complexity and deployment complexity at the same time
 
 ---
 
-## 7. Good Project Formula
+## 8. Good Project Formula
 
 A strong student project often looks like this:
 
@@ -429,10 +453,11 @@ Examples:
 - prompt -> image generator -> generated images -> gallery UI
 - sensor data -> anomaly detector -> warning/dashboard -> web interface
 - user question + document -> LLM/retrieval -> answer -> chat UI
+- item embeddings -> similarity ranking -> recommendation UI
 
 ---
 
-## 8. What I Expect at the Exam
+## 9. What I Expect at the Exam
 
 At the exam, I do not only care whether your project "works".
 
@@ -450,7 +475,7 @@ But at the exam, **you** must understand the result.
 
 ---
 
-## 9. Simple Recommendation to Students
+## 10. Simple Recommendation to Students
 
 If you are unsure, start with one of these:
 
@@ -458,13 +483,14 @@ If you are unsure, start with one of these:
 - an LLM tool app based on Transformers or Ollama
 - a speech-to-text or text-to-speech app
 - a multimodal app
+- a semantic search or recommendation app based on embeddings
 - an edge/deployment project using ONNX Runtime or Jetson
 
 These directions are usually easier to scope and demo than reinforcement learning.
 
 ---
 
-## 10. Final Message
+## 11. Final Message
 
 Deep learning is a wide field.
 

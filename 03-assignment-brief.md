@@ -44,6 +44,7 @@ But during the exam, you must be able to explain:
 - easy to demonstrate
 - enough code and technical reasoning to defend orally
 - one main framework choice that the student can explain well
+- not overly ambitious in both model-building and deployment at the same time
 
 ## Suggested Submission Shape
 

@@ -63,6 +63,7 @@ The idea is simple:
   - retrieval
   - document similarity
   - lightweight RAG-style apps
+  - recommendation based on embeddings
 
 ## Generative AI
 
@@ -80,6 +81,7 @@ The idea is simple:
 
 - Transformers fine-tuning docs: <https://huggingface.co/docs/transformers/training>
 - Transformers PEFT/adapters docs: <https://huggingface.co/docs/transformers/en/peft>
+- TRL docs for LLM fine-tuning workflows: <https://huggingface.co/docs/trl/index>
 - Diffusers training overview: <https://huggingface.co/docs/diffusers/training/overview>
 - Diffusers text-to-image fine-tuning example: <https://huggingface.co/docs/diffusers/training/text2image>
 - Why it matters:
@@ -121,6 +123,26 @@ The idea is simple:
   - classical CV pipelines
   - combining deep learning with engineering workflows
 
+## Document AI
+
+### Hugging Face document question answering
+
+- Main role: document understanding with pretrained models
+- Official docs: <https://huggingface.co/docs/transformers/tasks/document_question_answering>
+- Good for:
+  - form understanding
+  - receipt/document question answering
+  - multimodal document apps
+
+### docTR
+
+- Main role: OCR and document understanding
+- Official docs: <https://mindee.github.io/doctr/>
+- Good for:
+  - OCR pipelines
+  - reading scanned documents
+  - document-processing projects
+
 ## Reinforcement Learning
 
 ### Stable-Baselines3
@@ -132,6 +154,7 @@ The idea is simple:
   - DQN
   - SAC
   - simple RL experiments
+  - the easiest RL entry point for most students
 
 ### Gymnasium
 
@@ -140,6 +163,17 @@ The idea is simple:
 - Good for:
   - creating or using RL environments
   - running control experiments
+
+### TorchRL
+
+- Main role: PyTorch-native reinforcement-learning toolkit
+- Official docs: <https://docs.pytorch.org/rl/main/>
+- Good for:
+  - students who want a more PyTorch-native RL workflow
+  - more advanced RL experimentation
+- Recommendation:
+  - mention it as an option
+  - keep Stable-Baselines3 as the default student recommendation
 
 ## Edge AI and Deployment
 
@@ -170,6 +204,15 @@ The idea is simple:
   - inference optimization
   - lower latency deployment
   - optimized GPU serving
+
+### Ollama
+
+- Main role: easy local deployment of LLMs and some multimodal models
+- Official site: <https://ollama.com/>
+- Good for:
+  - local LLM serving
+  - edge-like deployment experiments with ready models
+  - students who want to focus on deployment rather than model training
 
 ## Optional Supporting Frameworks
 
@@ -223,6 +266,12 @@ If you want to move fast, pick one of these:
 - Sentence Transformers if search/retrieval is needed
 - Gradio or FastAPI
 
+### Semantic search or recommendation app
+
+- Sentence Transformers
+- Transformers if needed for retrieval pipelines
+- Gradio or FastAPI
+
 ### Audio app
 
 - Transformers or Whisper
@@ -243,5 +292,6 @@ If you want to move fast, pick one of these:
 
 - PyTorch
 - ONNX Runtime
+- Ollama for local LLM deployment
 - Jetson/JetPack if using NVIDIA edge hardware
 - FastAPI or Gradio

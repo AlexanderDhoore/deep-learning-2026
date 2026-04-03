@@ -11,16 +11,16 @@ The course is short and strongly practice-oriented. The main goal is not to cove
 
 ## Current Structure
 
-- `00-strategic-project-paths.md`
+- `01-strategic-project-paths.md`
   High-level map of the main technical paths students can choose.
-- `01-overview-and-project-directions.md`
+- `02-overview-and-project-directions.md`
   Main kickoff text for the lesson: broad field overview plus project-direction framing.
-- `02-assignment-brief.md`
+- `03-assignment-brief.md`
   First draft of the assignment concept.
-- `03-frameworks-and-official-docs.md`
+- `04-frameworks-and-official-docs.md`
   Curated list of useful frameworks plus official docs to start from.
 - `directions/`
-  One short file per project direction, with extra pointers and suggested tools.
+  One short file per application direction, plus a few cross-cutting themes.
 
 ## Teaching Philosophy
 
@@ -29,3 +29,13 @@ The course is short and strongly practice-oriented. The main goal is not to cove
 - build something real
 - use AI tools if useful, but understand your own code
 - framework choice first, project idea second is a valid path for students
+
+## Current High-Level Shape
+
+The material is currently organized around:
+
+1. strategic technical paths
+2. application directions
+3. frameworks and official docs
+
+Generative AI is treated as a cross-cutting theme rather than one single modality next to vision or audio.

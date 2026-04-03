@@ -23,6 +23,7 @@
 - torchvision
 - timm
 - Ultralytics YOLO
+- RF-DETR
 - OpenCV
 - Gradio / Streamlit / FastAPI
 
@@ -32,4 +33,3 @@
 - keep the dataset small
 - focus on one clear task
 - make the output visual
-

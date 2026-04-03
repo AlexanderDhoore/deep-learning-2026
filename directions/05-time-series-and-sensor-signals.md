@@ -1,11 +1,11 @@
-# Direction 6: Time-Series and Industrial AI
+# Direction 5: Time-Series and Sensor Signals
 
 ## Good fit for students who like
 
 - sensor data
-- industrial systems
 - forecasting
 - anomaly detection
+- wearable/device signals
 
 ## Typical project ideas
 
@@ -14,6 +14,7 @@
 - classification of signal patterns
 - forecast dashboard
 - industrial monitoring assistant
+- wearable-signal or device-signal analysis
 
 ## Strong starter tools
 
@@ -27,4 +28,4 @@
 - use a manageable dataset
 - define the task clearly
 - make the output useful and explainable
-
+- industrial applications are a strong option, but not the only option

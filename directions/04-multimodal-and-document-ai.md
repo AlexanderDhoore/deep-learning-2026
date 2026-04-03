@@ -1,4 +1,4 @@
-# Direction 5: Multimodal AI
+# Direction 4: Multimodal and Document AI
 
 ## Good fit for students who like
 
@@ -10,6 +10,7 @@
 
 - visual question answering app
 - document understanding tool
+- receipt or invoice reader
 - image captioning demo
 - voice + image assistant
 - multimodal tutoring assistant
@@ -18,6 +19,7 @@
 
 - Transformers
 - Ollama vision-capable models
+- docTR
 - Gradio
 
 ## Good advice
@@ -25,4 +27,3 @@
 - choose one clear multimodal interaction
 - for example: image + question -> answer
 - keep the workflow understandable
-
