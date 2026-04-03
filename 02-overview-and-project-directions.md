@@ -80,13 +80,6 @@ See also:
 
 - [`01-strategic-project-paths.md`](01-strategic-project-paths.md)
 
-One important distinction:
-
-- in classical deep learning, you may start from a pretrained model such as MobileNet and still retrain the model in the usual way
-- in modern foundation-model work, "fine-tuning" often means adapting only part of a very large model with methods like LoRA or PEFT
-
-So not every use of pretrained weights belongs in the same bucket.
-
 ### Quick explanation of the five paths
 
 #### Path 1: Train or retrain your own model
