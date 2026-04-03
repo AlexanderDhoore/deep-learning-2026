@@ -97,7 +97,7 @@ Examples:
 
 - choose a technical path
 - choose an application domain or framework stack
-- refine the other one
+- then choose the matching domain or framework stack
 - sketch a project idea
 - start building
 
