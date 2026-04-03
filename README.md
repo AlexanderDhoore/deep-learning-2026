@@ -19,6 +19,8 @@ The course is short and strongly practice-oriented. The main goal is not to cove
   Assignment expectations and scope.
 - `04-frameworks-and-official-docs.md`
   Curated list of useful frameworks plus official docs to start from.
+- `05-edge-ai-and-deployment.md`
+  Extra student-facing note for the edge deployment path, including ONNX Runtime, Jetson, TensorRT, and local model serving.
 - `domains/`
   One short file per application domain. These notes help you choose a domain and find the best official docs to continue with.
 - `slides/`
