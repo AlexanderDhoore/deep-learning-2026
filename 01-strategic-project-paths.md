@@ -119,49 +119,24 @@ Why this path is useful:
 
 ## Path 3: Fine-Tune or Adapt Pretrained Models
 
-This path sits between Path 1 and Path 2.
+Choose this path if you want to adapt a large pretrained model to your own task, domain, or style.
 
-You do not build a model from scratch, but you also do more than just call an existing model.
+This is usually different from Path 1.
+In Path 1, you often retrain a model in the normal way.
+In Path 3, you usually start from a large foundation model and adapt only part of it because full retraining is too expensive.
 
-This path is especially important for large foundation models such as:
+This path is especially common for:
 
 - large language models
 - image generation models
-- other very large pretrained systems
+- other large pretrained foundation models
 
-In these cases, it is often not practical to retrain the whole model.
-Instead, you adapt only part of it, or add trainable adapters.
-
-That is the key difference with Path 1.
-
-### Difference between Path 1 and Path 3
-
-Path 1:
-
-- normal training workflow
-- often updates the model weights in the usual way
-- may start from pretrained weights
-- common for CNNs, detectors, audio models, and smaller custom models
-
-Path 3:
-
-- adaptation of a large pretrained foundation model
-- often does **not** update the whole model
-- usually uses parameter-efficient methods
-- common for LLMs and diffusion models
-
-Typical parameter-efficient methods:
+Typical methods:
 
 - LoRA
 - PEFT
 - adapters
 - DreamBooth-style adaptation
-
-What this path means in practice:
-
-- you do more than prompting
-- you do less than full retraining
-- you change part of the model so it better fits your own domain, task, or style
 
 Typical areas:
 
@@ -187,8 +162,8 @@ Good examples:
 Why this path is useful:
 
 - it is one of the most interesting modern engineering paths
-- it helps you understand the difference between prompting, inference, and actual model adaptation
-- it teaches that "fine-tuning" can mean very different things depending on model scale
+- it sits between simple inference and full retraining
+- it helps you understand actual model adaptation, not just prompting
 
 ## Path 4: Reinforcement Learning and Control
 
