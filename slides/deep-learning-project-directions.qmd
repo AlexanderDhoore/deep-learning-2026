@@ -3,7 +3,7 @@ title: "Deep Learning 2026: Project Paths, Frameworks, and Directions"
 author: "Alexander D'hoore"
 format:
   pptx:
-    reference-doc: template-mlops-clean.pptx
+    reference-doc: template-deep-learning.pptx
     monofont: "Cousine"
 ---
 
