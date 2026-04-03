@@ -354,7 +354,7 @@ Examples:
 - Most of you will probably build some kind of interface.
 - Gradio is a very good default if you want to move fast.
 - React gives more control, but also more complexity.
-- See `04-generic-support-tooling.md` in the repo for a short overview of these options.
+- See `04-supporting-tools.md` in the repo for a short overview of these options.
 
 ![](media/frontend-user-interfaces.jpg)
 

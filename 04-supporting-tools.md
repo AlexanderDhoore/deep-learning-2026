@@ -1,4 +1,4 @@
-# Generic Support Tooling
+# Supporting Tools
 
 Use the files in `domains/` for AI frameworks, model choices, and official domain-specific docs.
 
