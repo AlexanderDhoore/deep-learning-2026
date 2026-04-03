@@ -31,7 +31,7 @@ The simplest workflow is:
 2. read `02-application-domains.md`
 3. choose a domain in `domains/`
 4. read `03-assignment-brief.md`
-5. use `04-generic-support-tooling.md` only if you need help with interfaces, APIs, frontend choices, or packaging
+5. read `04-generic-support-tooling.md` for supporting tools such as web interfaces, APIs, frontend choices, and packaging
 
 ## Repository Structure
 

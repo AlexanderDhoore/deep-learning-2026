@@ -17,7 +17,7 @@ The practical workflow is:
 
 1. choose a project domain in `domains/`
 2. choose your main AI framework from that domain note
-3. come back to this page only if you need generic application tooling around the model
+3. use this page for generic application tooling around the model
 
 ## Gradio
 
@@ -64,5 +64,5 @@ The practical workflow is:
 ## Final Advice
 
 - Choose your AI framework from the matching file in `domains/`.
-- Use this page only for interface, API, frontend, or packaging choices.
+- Use this page for interface, API, frontend, and packaging choices around your project.
 - Start simple. A small working demo is better than an overengineered stack.
