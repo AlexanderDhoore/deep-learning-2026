@@ -1,6 +1,6 @@
 # Cross-Cutting Theme: Generative Systems Across Modalities
 
-## Good fit for students who like
+## Good fit if you like
 
 - creativity
 - image generation

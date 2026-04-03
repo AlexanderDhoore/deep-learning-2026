@@ -1,6 +1,6 @@
 # Deep Learning: Broad Overview and Project Directions
 
-This document is meant as the basis for the first 30-minute kickoff talk before students start working on their own project.
+Use this document as a practical overview before you start working on your project.
 
 The goal of this talk is not to explain every deep-learning technique in depth.
 
@@ -74,7 +74,7 @@ That is often a better starting point than asking:
 
 > "What app should I build?"
 
-Because in practice, many students will first choose a framework they want to explore, and then invent a project around it.
+Because in practice, you may first choose a framework you want to explore, and then invent a project around it.
 
 See also:
 
@@ -125,7 +125,7 @@ Good tools:
 - Ultralytics YOLO
 - OpenCV
 
-Why it is a good student direction:
+Why this is a good direction:
 
 - visual output
 - easy to demo
@@ -161,9 +161,9 @@ Good tools:
 - Sentence Transformers
 - Gradio or FastAPI
 
-Why it is a good student direction:
+Why this is a good direction:
 
-- students already saw some of this in the generative AI workshop
+- you already saw some of this in the generative AI workshop
 - easy to prototype quickly
 - easy to connect to a frontend
 
@@ -193,7 +193,7 @@ Good tools:
 - Hugging Face Transformers
 - Gradio
 
-Why it is a good student direction:
+Why this is a good direction:
 
 - very interactive
 - easy to combine with LLMs
@@ -230,7 +230,7 @@ Good tools:
 - Ollama vision-capable models
 - Gradio
 
-Why it is a good student direction:
+Why this is a good direction:
 
 - feels modern
 - shows that deep learning is broader than just chatbots
@@ -262,7 +262,7 @@ Good tools:
 - pandas / polars for preprocessing
 - Gradio / Streamlit / FastAPI for interfaces
 
-Why it is a good student direction:
+Why this is a good direction:
 
 - relevant to industrial applications, but not limited to industry
 - good fit with electronics/ICT
@@ -294,7 +294,7 @@ Good tools:
 - vector databases or plain vector search libraries
 - Gradio / Streamlit / FastAPI
 
-Why it is a good student direction:
+Why this is a good direction:
 
 - very practical
 - highly relevant in modern AI products
@@ -324,10 +324,10 @@ Good tools:
 - TorchRL
 - PyTorch
 
-Why it is a possible student direction:
+Why this is a possible direction:
 
 - conceptually interesting
-- good for students who like control or simulation
+- good if you like control or simulation
 
 Why it is riskier:
 
@@ -363,9 +363,9 @@ Good tools:
 - Ultralytics export tools
 - Docker
 
-Why it is a good student direction:
+Why this is a good direction:
 
-- very relevant for electronics/ICT students
+- very relevant if you are in electronics/ICT
 - strong engineering value
 - good fit with real systems thinking
 
@@ -387,9 +387,9 @@ So instead of treating it as one separate modality, it is better to explain it a
 
 ## 6. Which Frameworks Matter Most?
 
-Students do not need to learn every framework.
+You do not need to learn every framework.
 
-For this course, the main **AI frameworks** worth pointing students toward are:
+For this course, the main **AI frameworks** worth focusing on are:
 
 - **PyTorch** as the core deep-learning framework
 - **torchvision** and **torchaudio** for domain-specific PyTorch work
@@ -397,14 +397,14 @@ For this course, the main **AI frameworks** worth pointing students toward are:
 - **Hugging Face Transformers** for text, multimodal, and pretrained model work
 - **Diffusers** for image generation and adaptation
 - **Sentence Transformers** for embeddings and semantic search
-- **Stable-Baselines3** as the most student-friendly RL default
+- **Stable-Baselines3** as the easiest RL default
 - **TorchRL** as an optional PyTorch-native RL stack
 - **ONNX Runtime**, **Jetson/JetPack**, **TensorRT**, and optionally **Ollama / llama.cpp** for deployment
 
 Supporting tools such as **Gradio**, **Streamlit**, and **FastAPI** are useful, but they are not the main AI frameworks.
 They are optional support layers around the AI system.
 
-For the students, a good mental model is:
+A good mental model is:
 
 - `PyTorch` when you want to train or retrain a model more directly
 - `Transformers` / `Diffusers` when you want to build with or adapt large pretrained foundation models
@@ -442,7 +442,7 @@ Bad choices are often:
 
 ## 8. Good Project Formula
 
-A strong student project often looks like this:
+A strong project often looks like this:
 
 > Input -> AI model -> useful output -> user interface
 
@@ -457,11 +457,9 @@ Examples:
 
 ---
 
-## 9. What I Expect at the Exam
+## 9. What You Should Be Ready to Explain at the Exam
 
-At the exam, I do not only care whether your project "works".
-
-I care whether you understand:
+At the exam, you should be ready to explain:
 
 - what problem you chose
 - which model or framework you used
@@ -475,7 +473,7 @@ But at the exam, **you** must understand the result.
 
 ---
 
-## 10. Simple Recommendation to Students
+## 10. Simple Recommendation If You Are Unsure
 
 If you are unsure, start with one of these:
 

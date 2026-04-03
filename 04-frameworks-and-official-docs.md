@@ -1,6 +1,6 @@
 # Frameworks and Official Docs
 
-This page is a practical starting point for students who need to learn a tool quickly.
+This page is a practical starting point if you need to learn a tool quickly.
 
 The idea is simple:
 
@@ -85,10 +85,10 @@ The idea is simple:
 - Diffusers training overview: <https://huggingface.co/docs/diffusers/training/overview>
 - Diffusers text-to-image fine-tuning example: <https://huggingface.co/docs/diffusers/training/text2image>
 - Why it matters:
-  - students can go beyond inference
+  - you can go beyond inference
   - fine-tuning or adaptation is a valid project category in this course
   - this is different from ordinary transfer learning on a smaller PyTorch model
-  - for large foundation models, students will often adapt only part of the model with methods like LoRA or PEFT
+  - for large foundation models, you will often adapt only part of the model with methods like LoRA or PEFT
 
 ## Computer Vision
 
@@ -154,7 +154,7 @@ The idea is simple:
   - DQN
   - SAC
   - simple RL experiments
-  - the easiest RL entry point for most students
+  - the easiest RL entry point for most projects
 
 ### Gymnasium
 
@@ -169,11 +169,11 @@ The idea is simple:
 - Main role: PyTorch-native reinforcement-learning toolkit
 - Official docs: <https://docs.pytorch.org/rl/main/>
 - Good for:
-  - students who want a more PyTorch-native RL workflow
+  - a more PyTorch-native RL workflow
   - more advanced RL experimentation
 - Recommendation:
   - mention it as an option
-  - keep Stable-Baselines3 as the default student recommendation
+  - keep Stable-Baselines3 as the default recommendation
 
 ## Edge AI and Deployment
 
@@ -212,7 +212,7 @@ The idea is simple:
 - Good for:
   - local LLM serving
   - edge-like deployment experiments with ready models
-  - students who want to focus on deployment rather than model training
+  - focusing on deployment rather than model training
 
 ## Optional Supporting Frameworks
 

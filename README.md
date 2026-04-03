@@ -1,22 +1,22 @@
 # Deep Learning 2026
 
-This repository contains course material for the deep-learning part of the 2026 course.
+This repository contains the course material for the deep-learning part of the 2026 course.
 
-The course is short and strongly practice-oriented. The main goal is not to cover the whole field in mathematical depth, but to help students:
+The course is short and strongly practice-oriented. The main goal is not to cover the whole field in mathematical depth, but to help you:
 
 - get a broad overview of modern deep learning
 - choose a project direction
 - build a unique AI application
-- understand and defend what they built
+- understand and defend what you built
 
 ## Current Structure
 
 - `01-strategic-project-paths.md`
-  High-level map of the main technical paths students can choose.
+  High-level map of the main technical paths you can choose.
 - `02-overview-and-project-directions.md`
   Main kickoff text for the lesson: broad field overview plus project-direction framing.
 - `03-assignment-brief.md`
-  First draft of the assignment concept.
+  Assignment expectations and scope.
 - `04-frameworks-and-official-docs.md`
   Curated list of useful frameworks plus official docs to start from.
 - `slides/`
@@ -30,7 +30,7 @@ The course is short and strongly practice-oriented. The main goal is not to cove
 - practical rather than purely theoretical
 - build something real
 - use AI tools if useful, but understand your own code
-- framework choice first, project idea second is a valid path for students
+- framework choice first, project idea second is a valid path
 
 ## Current High-Level Shape
 

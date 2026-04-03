@@ -11,7 +11,7 @@ format:
 
 ## Today’s Goal
 
-- In this short introduction, I want to give you a **map of the field**.
+- This short introduction gives you a **map of the field**.
 - Not deep theory, but a practical overview of what kinds of deep-learning systems you could build.
 - The main goal today:
   - choose a technical path
@@ -140,7 +140,7 @@ Examples:
   - interaction
   - reward
   - trial and error
-- In this course, the most realistic student projects are probably:
+- In this course, the most realistic projects are probably:
   - games
   - simulations
   - simple control tasks
@@ -153,7 +153,7 @@ Examples:
 
 ## Path 5: Edge AI and Deployment
 
-- Some students may focus less on training and more on **getting AI to run well on real hardware**.
+- You may want to focus less on training and more on **getting AI to run well on real hardware**.
 - That is a very valid project path.
 - Good examples:
   - deploy a vision model to an edge device

@@ -1,6 +1,6 @@
 # Direction 5: Time-Series and Sensor Signals
 
-## Good fit for students who like
+## Good fit if you like
 
 - sensor data
 - forecasting

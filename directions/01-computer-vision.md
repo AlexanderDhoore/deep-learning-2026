@@ -1,6 +1,6 @@
 # Direction 1: Computer Vision
 
-## Good fit for students who like
+## Good fit if you like
 
 - images
 - video

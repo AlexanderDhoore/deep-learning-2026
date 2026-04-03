@@ -1,17 +1,17 @@
 # Strategic Project Paths
 
-This file defines the most important high-level categories for the course.
+This file helps you choose a high-level project path for the course.
 
 The key idea is:
 
-students will probably choose a **framework stack first**, and then grow an application idea around it.
+you will probably choose a **framework stack first**, and then grow an application idea around it.
 
 So these categories are not only based on application domain.
-They are also based on the kind of technical path a student chooses.
+They are also based on the kind of technical path you choose.
 
 ## Path 1: Train Your Own Neural Network
 
-This path is for students who want to train or retrain a model in a relatively classical deep-learning workflow.
+Choose this path if you want to train or retrain a model in a relatively classical deep-learning workflow.
 
 Important note:
 
@@ -49,12 +49,12 @@ Good examples:
 - classify sounds
 - detect anomalies in sensor data
 
-Why this path matters:
+Why this path is useful:
 
 - it teaches the basic deep-learning workflow directly
 - dataset -> model -> training -> evaluation -> deployment
 
-Typical wording to use in class:
+Useful keywords:
 
 - transfer learning
 - retraining
@@ -63,7 +63,7 @@ Typical wording to use in class:
 
 ## Path 2: Build With Pretrained Foundation Models
 
-This path is for students who want to use existing pretrained models instead of training from scratch.
+Choose this path if you want to use existing pretrained models instead of training from scratch.
 
 Typical areas:
 
@@ -90,7 +90,7 @@ Good examples:
 - document understanding tool
 - recommendation prototype based on embeddings
 
-Why this path matters:
+Why this path is useful:
 
 - this is how much modern AI development actually works
 - many useful systems are built on top of pretrained models
@@ -99,7 +99,7 @@ Why this path matters:
 
 This path sits between Path 1 and Path 2.
 
-The student does not build a model from scratch, but also does more than just call an existing model.
+You do not build a model from scratch, but you also do more than just call an existing model.
 
 This path is especially important for large foundation models such as:
 
@@ -108,7 +108,7 @@ This path is especially important for large foundation models such as:
 - other very large pretrained systems
 
 In these cases, it is often not practical to retrain the whole model.
-Instead, the student adapts only part of it, or adds trainable adapters.
+Instead, you adapt only part of it, or add trainable adapters.
 
 That is the key difference with Path 1.
 
@@ -155,15 +155,15 @@ Good examples:
 - fine-tune an image generation model on a style
 - adapt a model to a domain-specific dataset
 
-Why this path matters:
+Why this path is useful:
 
 - it is one of the most interesting modern engineering paths
-- it helps students understand the difference between prompting, inference, and actual model adaptation
+- it helps you understand the difference between prompting, inference, and actual model adaptation
 - it teaches that "fine-tuning" can mean very different things depending on model scale
 
 ## Path 4: Reinforcement Learning and Control
 
-This path is for students who want to build agents that learn through reward and interaction.
+Choose this path if you want to build agents that learn through reward and interaction.
 
 Typical framework stack:
 
@@ -178,10 +178,10 @@ Good examples:
 - control simulation
 - simple RL benchmark comparison
 
-Why this path matters:
+Why this path is useful:
 
 - it is a major deep-learning area
-- it strongly appeals to students interested in games, robotics, or control
+- it strongly appeals if you are interested in games, robotics, or control
 
 Risk note:
 
@@ -189,7 +189,7 @@ Risk note:
 
 ## Path 5: Edge AI and Deployment
 
-This path is for students who care most about getting a model to run efficiently on real hardware.
+Choose this path if you care most about getting a model to run efficiently on real hardware.
 
 Typical framework stack:
 
@@ -207,7 +207,7 @@ Good examples:
 - build an application around an embedded AI model
 - deploy a small local LLM on an edge-oriented machine
 
-Why this path matters:
+Why this path is useful:
 
 - it fits electronics-ICT very well
 - it connects deep learning to real systems engineering
@@ -215,7 +215,7 @@ Why this path matters:
 
 ## Secondary Project Dimensions
 
-After choosing a strategic path, the student can choose an application area:
+After choosing a strategic path, choose an application area:
 
 - computer vision
 - language models, text apps, and chat systems
@@ -239,9 +239,9 @@ This two-level model is probably the best way to explain the field:
 So "generative AI" is not one separate modality next to vision or audio.
 It is something that can happen inside several modalities.
 
-## Recommended Default Paths For Most Students
+## Recommended Default Paths If You Are Unsure
 
-If a student is unsure, these are probably the best default choices:
+If you are unsure, these are probably the best default choices:
 
 - Train Your Own Neural Network
 - Build With Pretrained Foundation Models
@@ -249,4 +249,4 @@ If a student is unsure, these are probably the best default choices:
 
 These usually balance feasibility, learning value, and demo quality best.
 
-The "Fine-Tune or Adapt Pretrained Models" path is exciting, but probably best for students who are especially motivated and willing to work with more demanding tooling.
+The "Fine-Tune or Adapt Pretrained Models" path is exciting, but it is probably best if you are especially motivated and willing to work with more demanding tooling.

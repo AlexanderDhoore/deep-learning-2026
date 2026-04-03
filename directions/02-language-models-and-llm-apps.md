@@ -1,6 +1,6 @@
 # Direction 2: Language Models and LLM Apps
 
-## Good fit for students who like
+## Good fit if you like
 
 - text
 - chat interfaces

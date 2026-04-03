@@ -1,6 +1,6 @@
 # Direction 3: Speech and Audio
 
-## Good fit for students who like
+## Good fit if you like
 
 - voice
 - audio interfaces
@@ -27,4 +27,3 @@
 - use existing pretrained models
 - keep audio handling simple
 - test with a few clear use cases
-

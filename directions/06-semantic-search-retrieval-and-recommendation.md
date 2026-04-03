@@ -1,6 +1,6 @@
 # Direction 6: Semantic Search, Retrieval, and Recommendation
 
-## Good fit for students who like
+## Good fit if you like
 
 - search
 - information retrieval

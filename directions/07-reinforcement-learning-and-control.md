@@ -1,6 +1,6 @@
 # Direction 7: Reinforcement Learning and Control
 
-## Good fit for students who like
+## Good fit if you like
 
 - simulation
 - control
@@ -25,4 +25,4 @@
 - keep the environment simple
 - do not overscope
 - this direction is interesting but riskier than most others
-- for most students, Stable-Baselines3 is the safest starting point
+- Stable-Baselines3 is the safest starting point for most projects

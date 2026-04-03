@@ -1,6 +1,6 @@
 # Assignment Brief
 
-This is an initial draft.
+Use this page as the practical brief for your project.
 
 ## Goal
 
@@ -8,12 +8,12 @@ Build a unique AI application and present it at the exam.
 
 ## Expected Output
 
-Each student should build:
+You should build:
 
 - one working application or prototype
 - with a clear AI component
 - and a clear user-facing interface or interaction flow
-- based on one main AI framework or model stack that the student learns in depth
+- based on one main AI framework or model stack that you learn in depth
 
 The interface may be:
 
@@ -38,12 +38,12 @@ But during the exam, you must be able to explain:
 
 ## Good Project Characteristics
 
-- unique topic per student
+- unique topic
 - feasible within the course time
 - clear technical challenge
 - easy to demonstrate
 - enough code and technical reasoning to defend orally
-- one main framework choice that the student can explain well
+- one main framework choice that you can explain well
 - not overly ambitious in both model-building and deployment at the same time
 
 ## Suggested Submission Shape

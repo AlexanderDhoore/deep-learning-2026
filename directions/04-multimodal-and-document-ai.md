@@ -1,6 +1,6 @@
 # Direction 4: Multimodal and Document AI
 
-## Good fit for students who like
+## Good fit if you like
 
 - combining text, image, and audio
 - modern AI systems

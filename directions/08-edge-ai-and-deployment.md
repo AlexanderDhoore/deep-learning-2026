@@ -1,6 +1,6 @@
 # Direction 8: Edge AI and Deployment
 
-## Good fit for students who like
+## Good fit if you like
 
 - optimization
 - embedded systems
