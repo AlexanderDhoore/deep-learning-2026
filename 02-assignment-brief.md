@@ -13,6 +13,7 @@ Each student should build:
 - one working application or prototype
 - with a clear AI component
 - and a clear user-facing interface or interaction flow
+- based on one main AI framework or model stack that the student learns in depth
 
 The interface may be:
 
@@ -42,6 +43,7 @@ But during the exam, you must be able to explain:
 - clear technical challenge
 - easy to demonstrate
 - enough code and technical reasoning to defend orally
+- one main framework choice that the student can explain well
 
 ## Suggested Submission Shape
 
@@ -49,4 +51,3 @@ But during the exam, you must be able to explain:
 - short README
 - short demo
 - presentation and oral defense during the exam
-

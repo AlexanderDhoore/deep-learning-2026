@@ -58,13 +58,37 @@ That means:
 
 ---
 
-## 3. Suggested Project Directions
+## 3. First Choose a Technical Path
 
-Below is a practical map of project directions.
+Before choosing a detailed project idea, it is often easier to choose a **technical path**.
+
+For this course, the main paths are:
+
+- train your own neural network
+- build with pretrained foundation models
+- fine-tune or adapt pretrained models
+- reinforcement learning
+- edge AI and deployment
+
+That is often a better starting point than asking:
+
+> "What app should I build?"
+
+Because in practice, many students will first choose a framework they want to explore, and then invent a project around it.
+
+See also:
+
+- [`00-strategic-project-paths.md`](00-strategic-project-paths.md)
+
+## 4. Then Choose an Application Domain
+
+After that, choose the application area where you want to apply that path.
+
+Below is a practical map of application domains.
 
 These are not rigid categories.
 They overlap.
-But they give you a way to choose a path.
+But they help you imagine possible projects.
 
 ### Direction 1: Computer Vision
 
@@ -334,27 +358,27 @@ Why it is a good student direction:
 
 ---
 
-## 4. Which Frameworks Matter Most?
+## 5. Which Frameworks Matter Most?
 
 Students do not need to learn every framework.
 
-A good practical stack for this course is:
+For this course, the main **AI frameworks** worth pointing students toward are:
 
-- **PyTorch** as the main deep-learning framework
-- **Hugging Face Transformers** for text, multimodal, and many pretrained models
-- **Diffusers** for image/audio generation
-- **Ultralytics YOLO** for quick vision projects
+- **PyTorch** as the core deep-learning framework
+- **torchvision** and **torchaudio** for domain-specific PyTorch work
+- **Ultralytics YOLO** and **RF-DETR** for practical vision projects
+- **Hugging Face Transformers** for text, multimodal, and pretrained model work
+- **Diffusers** for image generation and adaptation
 - **Sentence Transformers** for embeddings and semantic search
 - **Stable-Baselines3** for reinforcement learning
-- **Gradio** or **Streamlit** for fast web interfaces
-- **FastAPI** if a student wants a cleaner backend API
-- **ONNX Runtime** for deployment or optimization-focused projects
+- **ONNX Runtime**, **Jetson/JetPack**, and optionally **TensorRT** for deployment
 
-This is already more than enough.
+Supporting tools such as **Gradio**, **Streamlit**, and **FastAPI** are useful, but they are not the main AI frameworks.
+They are optional support layers around the AI system.
 
 ---
 
-## 5. Advice for Choosing a Project
+## 6. Advice for Choosing a Project
 
 Choose a project that is:
 
@@ -380,7 +404,7 @@ Bad choices are often:
 
 ---
 
-## 6. Good Project Formula
+## 7. Good Project Formula
 
 A strong student project often looks like this:
 
@@ -396,7 +420,7 @@ Examples:
 
 ---
 
-## 7. What I Expect at the Exam
+## 8. What I Expect at the Exam
 
 At the exam, I do not only care whether your project "works".
 
@@ -414,21 +438,21 @@ But at the exam, **you** must understand the result.
 
 ---
 
-## 8. Simple Recommendation to Students
+## 9. Simple Recommendation to Students
 
 If you are unsure, start with one of these:
 
-- a computer vision app
-- an LLM tool app
+- a computer vision app based on YOLO or RF-DETR
+- an LLM tool app based on Transformers or Ollama
 - a speech-to-text or text-to-speech app
 - a multimodal app
-- an edge/deployment project using a pretrained model
+- an edge/deployment project using ONNX Runtime or Jetson
 
 These directions are usually easier to scope and demo than reinforcement learning.
 
 ---
 
-## 9. Final Message
+## 10. Final Message
 
 Deep learning is a wide field.
 
@@ -440,4 +464,3 @@ But you should leave this course with:
 - confidence that you can learn new AI tools on your own
 
 That is the real goal.
-

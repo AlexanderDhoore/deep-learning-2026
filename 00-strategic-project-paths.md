@@ -1,0 +1,179 @@
+# Strategic Project Paths
+
+This file defines the most important high-level categories for the course.
+
+The key idea is:
+
+students will probably choose a **framework stack first**, and then grow an application idea around it.
+
+So these categories are not only based on application domain.
+They are also based on the kind of technical path a student chooses.
+
+## Path 1: Train Your Own Neural Network
+
+This path is for students who want to train or fine-tune their own model in a relatively classical deep-learning workflow.
+
+Typical areas:
+
+- computer vision
+- audio classification
+- time-series analysis
+- simple custom classifiers
+
+Typical framework stack:
+
+- PyTorch
+- torchvision / torchaudio
+- timm
+- Ultralytics YOLO
+- RF-DETR
+
+Good examples:
+
+- train a visual classifier
+- fine-tune an object detector
+- classify sounds
+- detect anomalies in sensor data
+
+Why this path matters:
+
+- it teaches the basic deep-learning workflow directly
+- dataset -> model -> training -> evaluation -> deployment
+
+## Path 2: Build With Pretrained Foundation Models
+
+This path is for students who want to use existing pretrained models instead of training from scratch.
+
+Typical areas:
+
+- LLM applications
+- vision-language models
+- speech models
+- image generation
+- multimodal demos
+
+Typical framework stack:
+
+- Hugging Face Transformers
+- Diffusers
+- Ollama
+- Sentence Transformers
+
+Good examples:
+
+- chatbot
+- image-question answering app
+- speech-to-text tool
+- text-to-image tool
+- semantic search assistant
+
+Why this path matters:
+
+- this is how much modern AI development actually works
+- many useful systems are built on top of pretrained models
+
+## Path 3: Fine-Tune or Adapt Pretrained Models
+
+This path sits between Path 1 and Path 2.
+
+The student does not build a model from scratch, but also does more than just call an existing model.
+
+Typical areas:
+
+- LLM fine-tuning
+- PEFT / LoRA adaptation
+- DreamBooth / LoRA for image models
+- domain-specific adaptation
+
+Typical framework stack:
+
+- Transformers training stack
+- PEFT / LoRA-style methods
+- Diffusers training scripts
+- PyTorch
+
+Good examples:
+
+- adapt a small LLM to a narrow task
+- fine-tune an image generation model on a style
+- adapt a model to a domain-specific dataset
+
+Why this path matters:
+
+- it is one of the most interesting modern engineering paths
+- it helps students understand the difference between prompting, inference, and actual model adaptation
+
+## Path 4: Reinforcement Learning and Control
+
+This path is for students who want to build agents that learn through reward and interaction.
+
+Typical framework stack:
+
+- Gymnasium
+- Stable-Baselines3
+- PyTorch
+
+Good examples:
+
+- game-playing agent
+- control simulation
+- simple RL benchmark comparison
+
+Why this path matters:
+
+- it is a major deep-learning area
+- it strongly appeals to students interested in games, robotics, or control
+
+Risk note:
+
+- this path is interesting, but harder to scope well in a short course
+
+## Path 5: Edge AI and Deployment
+
+This path is for students who care most about getting a model to run efficiently on real hardware.
+
+Typical framework stack:
+
+- ONNX Runtime
+- NVIDIA Jetson / JetPack
+- TensorRT
+- PyTorch export workflows
+
+Good examples:
+
+- export and deploy a model on edge hardware
+- compare runtimes
+- optimize latency
+- build an application around an embedded AI model
+
+Why this path matters:
+
+- it fits electronics-ICT very well
+- it connects deep learning to real systems engineering
+- it teaches that deployment is part of AI, not an afterthought
+
+## Secondary Project Dimensions
+
+After choosing a strategic path, the student can choose an application area:
+
+- vision
+- language
+- audio
+- multimodal AI
+- time-series / industrial AI
+- generative AI
+
+This two-level model is probably the best way to explain the field:
+
+1. choose a technical path
+2. choose an application domain
+
+## Recommended Default Paths For Most Students
+
+If a student is unsure, these are probably the best default choices:
+
+- Train Your Own Neural Network
+- Build With Pretrained Foundation Models
+- Edge AI and Deployment
+
+These usually balance feasibility, learning value, and demo quality best.
