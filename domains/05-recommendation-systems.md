@@ -170,7 +170,6 @@ Recommended tools:
 
 - Sentence Transformers
 - similarity scoring
-- Gradio or Streamlit
 
 Why choose this route:
 
@@ -201,7 +200,6 @@ Recommended tools:
 
 - Sentence Transformers
 - PyTorch only if you need more custom ranking later
-- Gradio, Streamlit, or FastAPI
 
 Why choose this route:
 
@@ -223,7 +221,6 @@ Recommended tools:
 
 - embeddings
 - simple ranking logic
-- frontend for selecting preferences
 
 Why choose this route:
 
@@ -267,39 +264,18 @@ Use one of these if:
 
 For a small project, you may not need a full vector database immediately.
 
-### Gradio or Streamlit
-
-Use these if:
-
-- you want a quick interface
-- you want users to browse recommendations
-- you want the frontend to stay simple
-
-These are especially useful because recommendation systems benefit from visible interaction.
-
-### FastAPI
-
-Use FastAPI if:
-
-- you want a backend API
-- you want a more service-oriented architecture
-- you want to separate frontend and recommendation logic
-
 ## Official Docs and Starting Points
 
 Start from the official docs, not random short tutorials.
 
 - Sentence Transformers: <https://www.sbert.net/>
 - PyTorch: <https://pytorch.org/>
-- Gradio: <https://www.gradio.app/docs>
-- Streamlit: <https://docs.streamlit.io/>
-- FastAPI: <https://fastapi.tiangolo.com/>
 
 If you want the easiest route, start with Sentence Transformers and a small curated dataset.
 
 If you later want a more custom ranking story, bring in PyTorch.
 
-If you want a richer web-app feel, use Streamlit or Gradio first and only move to a more custom frontend if you really need it.
+For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
 
 ## How To Choose a Good Recommendation Project
 

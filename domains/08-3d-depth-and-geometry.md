@@ -140,7 +140,6 @@ Recommended tools:
 
 - Hugging Face Transformers
 - a depth-estimation model
-- Gradio
 
 Why choose this route:
 
@@ -164,7 +163,6 @@ Recommended tools:
 
 - Hugging Face model ecosystem
 - a model or workflow that supports image-to-3D
-- Gradio or another visualization interface
 
 Why choose this route:
 
@@ -186,7 +184,6 @@ Recommended tools:
 
 - Hugging Face task ecosystem
 - a pretrained text-to-3D workflow
-- a simple interface for prompts and output preview
 
 Why choose this route:
 
@@ -231,16 +228,6 @@ Use PyTorch if:
 
 For many student projects in this domain, PyTorch is supportive rather than the main story.
 
-### Gradio or another custom frontend
-
-Use Gradio if:
-
-- you want a fast demo
-- you want image upload and result visualization
-- you want to keep the interface simple
-
-Use a custom frontend only if the visualization itself is a big part of the project.
-
 ## Official Docs and Starting Points
 
 Start from the official docs and task pages, not random short tutorials.
@@ -251,11 +238,12 @@ Start from the official docs and task pages, not random short tutorials.
 - Hugging Face text-to-3D task: <https://huggingface.co/tasks/text-to-3d>
 - Hugging Face monocular depth estimation guide: <https://huggingface.co/docs/transformers/main/tasks/monocular_depth_estimation>
 - PyTorch: <https://pytorch.org/>
-- Gradio: <https://www.gradio.app/docs>
 
 If you want the safest route, start with depth estimation.
 
 If you want a more experimental route, explore image-to-3D or text-to-3D models on Hugging Face first and make sure you can run one example before designing the rest of the application.
+
+For generic interface or visualization tooling, use the top-level frameworks page instead of this domain note.
 
 ## How To Choose a Good 3D or Geometry Project
 

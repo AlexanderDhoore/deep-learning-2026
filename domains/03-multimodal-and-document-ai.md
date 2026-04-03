@@ -187,7 +187,6 @@ Recommended tools:
 
 - Hugging Face Transformers
 - a vision-capable local model
-- Gradio
 
 Why choose this route:
 
@@ -211,7 +210,6 @@ Recommended tools:
 
 - docTR
 - Hugging Face Transformers
-- Gradio or FastAPI
 
 Why choose this route:
 
@@ -233,7 +231,6 @@ Recommended tools:
 
 - a vision-capable local model
 - Hugging Face Transformers
-- Gradio or FastAPI
 
 Why choose this route:
 
@@ -277,22 +274,6 @@ Use docTR if:
 docTR is not a full multimodal ecosystem by itself.
 It is a very useful document-focused tool inside this domain.
 
-### Gradio
-
-Use Gradio if:
-
-- you want a quick upload-and-result interface
-- you want a demo-friendly web app
-- you want the frontend to stay simple
-
-### FastAPI
-
-Use FastAPI if:
-
-- you want a backend API
-- you want a cleaner service architecture
-- you want more control over the application structure
-
 ## Official Docs and Starting Points
 
 Start from the official docs, not random short tutorials.
@@ -306,7 +287,9 @@ If you want a broad multimodal route, start with Transformers.
 
 If your project is document-heavy, start with docTR and the document-question-answering docs.
 
-If you want a simple local assistant workflow, start with a vision-capable local model and Gradio.
+If you want a simple local assistant workflow, start with a vision-capable local model.
+
+For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
 
 ## How To Choose a Good Multimodal Project
 

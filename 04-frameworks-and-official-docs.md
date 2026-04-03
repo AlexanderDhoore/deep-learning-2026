@@ -250,6 +250,7 @@ Use this section as the main cross-cutting starting point if your project is gen
 
 These are useful, but they are not the main AI choice.
 They support the application around the model.
+They are intentionally kept here at the top level instead of being repeated in every domain note.
 
 ### Gradio
 

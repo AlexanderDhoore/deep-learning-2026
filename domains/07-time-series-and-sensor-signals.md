@@ -148,7 +148,6 @@ Recommended tools:
 
 - PyTorch
 - pandas or polars
-- Gradio or Streamlit for visualization
 
 Why choose this route:
 
@@ -172,7 +171,6 @@ Recommended tools:
 
 - NeuralForecast or another time-series library
 - pandas or polars
-- Streamlit or Gradio
 
 Why choose this route:
 
@@ -216,7 +214,6 @@ Good fit for:
 Recommended tools:
 
 - time-series model or library
-- Streamlit, Gradio, or FastAPI
 - data-processing tools
 
 Why choose this route:
@@ -264,22 +261,6 @@ Use pandas or polars if:
 
 In this domain, data preparation is often extremely important.
 
-### Streamlit or Gradio
-
-Use these if:
-
-- you want a dashboard
-- you want to visualize predictions or anomalies
-- you want a simple user-facing interface
-
-### FastAPI
-
-Use FastAPI if:
-
-- you want a backend API
-- you want to separate the model and interface
-- you want a service-oriented monitoring or prediction system
-
 ## Official Docs and Starting Points
 
 Start from the official docs, not random short tutorials.
@@ -294,7 +275,7 @@ If you want a training-focused route, start with PyTorch and tsai.
 
 If you want a forecasting route, start with NeuralForecast.
 
-If you want a dashboard-style project, plan the interface early so the output becomes visible and useful.
+For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
 
 ## How To Choose a Good Time-Series Project
 

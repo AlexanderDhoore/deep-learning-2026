@@ -141,7 +141,6 @@ Good fit for:
 Recommended tools:
 
 - Whisper
-- Gradio
 - optionally a language model for summarization
 
 Why choose this route:
@@ -165,7 +164,6 @@ Good fit for:
 Recommended tools:
 
 - Coqui TTS or another TTS library
-- Gradio or FastAPI
 
 Why choose this route:
 
@@ -187,7 +185,6 @@ Recommended tools:
 
 - PyTorch
 - torchaudio
-- Gradio for the demo interface
 
 Why choose this route:
 
@@ -211,7 +208,6 @@ Recommended tools:
 - Whisper
 - a language model
 - TTS if you want speech output
-- Gradio or FastAPI
 
 Why choose this route:
 
@@ -233,7 +229,6 @@ Recommended tools:
 
 - Hugging Face model ecosystem
 - Transformers or other audio-generation libraries
-- Gradio
 
 Why choose this route:
 
@@ -282,22 +277,6 @@ Use a TTS library if:
 - you want a voice output system
 - your project needs spoken responses
 
-### Gradio
-
-Use Gradio if:
-
-- you want fast demos
-- you want users to record or upload audio easily
-- you want the interface to stay simple
-
-### FastAPI
-
-Use FastAPI if:
-
-- you want a backend API
-- you want to separate frontend and audio processing
-- you want a more service-oriented architecture
-
 ## Official Docs and Starting Points
 
 Start from the official docs, not random short tutorials.
@@ -305,7 +284,6 @@ Start from the official docs, not random short tutorials.
 - torchaudio: <https://docs.pytorch.org/audio/main/index.html>
 - Hugging Face Transformers: <https://huggingface.co/docs/transformers/en/index>
 - Coqui TTS: <https://coqui-tts.readthedocs.io/en/latest/>
-- Gradio: <https://www.gradio.app/docs>
 
 For speech-to-text, Whisper is usually the easiest strong starting point.
 
@@ -314,6 +292,8 @@ For broader model exploration, start with the Hugging Face ecosystem.
 For audio preprocessing and model training, use torchaudio with PyTorch.
 
 For text-to-speech, start from a dedicated TTS library.
+
+For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
 
 ## How To Choose a Good Speech or Audio Project
 

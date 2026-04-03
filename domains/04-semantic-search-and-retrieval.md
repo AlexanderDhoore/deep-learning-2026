@@ -188,7 +188,6 @@ Recommended tools:
 
 - Sentence Transformers
 - cosine similarity
-- Gradio or Streamlit
 
 Why choose this route:
 
@@ -213,7 +212,6 @@ Recommended tools:
 
 - Sentence Transformers
 - Ollama or Transformers for the generation part
-- Gradio or FastAPI
 
 Why choose this route:
 
@@ -235,7 +233,6 @@ Recommended tools:
 
 - Sentence Transformers
 - Qdrant or Faiss
-- FastAPI
 
 Why choose this route:
 
@@ -288,22 +285,6 @@ Use Qdrant if:
 For many student projects, Qdrant is not required.
 But it is a good option if you want the storage and search layer to feel more like a real backend system.
 
-### Gradio or Streamlit
-
-Use these if:
-
-- you want a quick search interface
-- you want an upload-and-query demo
-- you want the frontend to stay simple
-
-### FastAPI
-
-Use FastAPI if:
-
-- you want a backend API
-- you want a clearer service architecture
-- you want to separate frontend and retrieval logic
-
 ## Official Docs and Starting Points
 
 Start from the official docs, not random short tutorials.
@@ -313,15 +294,14 @@ Start from the official docs, not random short tutorials.
 - Hugging Face tasks: <https://huggingface.co/tasks>
 - Faiss: <https://faiss.ai/>
 - Qdrant: <https://qdrant.tech/documentation/>
-- Gradio: <https://www.gradio.app/docs>
-- Streamlit: <https://docs.streamlit.io/>
-- FastAPI: <https://fastapi.tiangolo.com/>
 
 If you want the easiest route, start with Sentence Transformers and a small dataset.
 
 If you want a stronger backend flavor, add Faiss or Qdrant.
 
 If you want a chatbot over documents, combine retrieval with a language model only after the retrieval step is already working clearly.
+
+For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
 
 ## How To Choose a Good Retrieval Project
 

@@ -155,7 +155,6 @@ Recommended tools:
 
 - Ultralytics YOLO
 - OpenCV
-- Gradio or Streamlit for the interface
 
 Why choose this route:
 
@@ -203,7 +202,6 @@ Recommended tools:
 - RF-DETR
 - PyTorch
 - OpenCV
-- Gradio or FastAPI
 
 Why choose this route:
 
@@ -282,6 +280,8 @@ If you choose the more PyTorch-oriented route, start with PyTorch and torchvisio
 If you choose detection, start with YOLO or RF-DETR.
 
 If you choose a project with images or video, OpenCV will often still be useful somewhere in the pipeline.
+
+For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
 
 ## How To Choose a Good Computer-Vision Project
 

@@ -217,8 +217,7 @@ Good fit for:
 Recommended tools:
 
 - Ollama
-- Gradio
-- optionally FastAPI if you want a backend API
+- a small local language model setup
 
 Why choose this route:
 
@@ -241,7 +240,6 @@ Good fit for:
 Recommended tools:
 
 - Hugging Face Transformers
-- Gradio or FastAPI
 
 Why choose this route:
 
@@ -262,7 +260,6 @@ Good fit for:
 Recommended tools:
 
 - Ollama or Transformers
-- FastAPI or Gradio
 - your own small helper functions or APIs
 
 Why choose this route:
@@ -285,7 +282,6 @@ Recommended tools:
 
 - Sentence Transformers
 - Ollama or Transformers
-- Gradio or FastAPI
 
 Why choose this route:
 
@@ -328,22 +324,6 @@ Use Sentence Transformers if:
 
 This is especially useful if your text project needs more than plain chat.
 
-### Gradio
-
-Use Gradio if:
-
-- you want a quick interface
-- you want a demo-friendly web app
-- you do not want the frontend to become the hard part of the project
-
-### FastAPI
-
-Use FastAPI if:
-
-- you want a clearer backend
-- you want frontend/backend separation
-- you want your project to feel more like a service
-
 ## Official Docs and Starting Points
 
 Start from the official docs, not random short tutorials.
@@ -351,14 +331,14 @@ Start from the official docs, not random short tutorials.
 - Ollama: <https://ollama.com/>
 - Hugging Face Transformers: <https://huggingface.co/docs/transformers/en/index>
 - Sentence Transformers: <https://www.sbert.net/>
-- Gradio: <https://www.gradio.app/docs>
-- FastAPI: <https://fastapi.tiangolo.com/>
 
-If you want the fastest path to a working app, start with Ollama and Gradio.
+If you want the fastest path to a working app, start with Ollama.
 
 If you want the broadest official model ecosystem, start with Transformers.
 
 If your idea involves retrieval or meaning-based search, include Sentence Transformers early.
+
+For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
 
 ## How To Choose a Good Language-Model Project
 

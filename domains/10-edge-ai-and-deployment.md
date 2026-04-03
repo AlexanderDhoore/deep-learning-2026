@@ -125,7 +125,6 @@ Recommended tools:
 
 - Ollama
 - llama.cpp
-- FastAPI or Gradio
 
 Why choose this route:
 
@@ -148,7 +147,6 @@ Recommended tools:
 - ONNX Runtime
 - TensorRT if using NVIDIA hardware
 - simple benchmark scripts
-- FastAPI or Gradio for the demo layer
 
 Why choose this route:
 
@@ -200,14 +198,6 @@ Use llama.cpp if:
 - you care about efficient local serving
 - you want to explore runtime tradeoffs
 
-### Docker
-
-Use Docker if:
-
-- you want a cleaner deployment workflow
-- you want reproducible serving
-- you want to package the application around the model
-
 ## Official Docs and Starting Points
 
 Start from the official docs, not random short tutorials.
@@ -218,11 +208,12 @@ Start from the official docs, not random short tutorials.
 - NVIDIA TensorRT docs: <https://docs.nvidia.com/deeplearning/tensorrt/10.11.0/_static/python-api/gettingStarted.html>
 - Ollama: <https://ollama.com/>
 - llama.cpp: <https://github.com/ggml-org/llama.cpp>
-- Docker docs: <https://docs.docker.com/>
 
 If you want the safest edge project, start with a vision model or a small local LLM that already works.
 
 If you want the strongest systems story, measure performance clearly and explain the deployment tradeoffs well.
+
+For generic packaging or API tooling, use the top-level frameworks page instead of this domain note.
 
 ## How To Choose a Good Edge Deployment Project
 
