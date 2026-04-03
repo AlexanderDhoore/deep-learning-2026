@@ -131,24 +131,18 @@ This path is especially common for:
 - image generation models
 - other large pretrained foundation models
 
-Typical methods:
+Common methods:
 
 - LoRA
 - PEFT
 - adapters
 - DreamBooth-style adaptation
 
-Typical areas:
-
-- LLM fine-tuning
-- PEFT / LoRA adaptation
-- DreamBooth / LoRA for image models
-- domain-specific adaptation
+You will see this most often in LLM fine-tuning, image-model adaptation, and other domain-specific adaptation workflows.
 
 Typical framework stack:
 
-- Transformers training stack
-- PEFT / LoRA-style methods
+- Transformers and PEFT
 - Diffusers training scripts
 - PyTorch
 
