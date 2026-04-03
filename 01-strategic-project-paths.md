@@ -285,15 +285,3 @@ This two-level model is probably the best way to explain the field:
 
 So "generative AI" is not one separate modality next to vision or audio.
 It is something that can happen inside several modalities.
-
-## Recommended Default Paths If You Are Unsure
-
-If you are unsure, these are probably the best default choices:
-
-- Train Your Own Neural Network
-- Build With Pretrained Foundation Models
-- Edge AI and Deployment
-
-These usually balance feasibility, learning value, and demo quality best.
-
-The "Fine-Tune or Adapt Pretrained Models" path is exciting, but it is probably best if you are especially motivated and willing to work with more demanding tooling.
