@@ -391,7 +391,7 @@ Why this is a good domain:
 - it is a very realistic product-oriented AI domain
 - it can lead to a strong demo with a clear user experience
 
-### Domain 6: Speech and Audio AI
+### Domain 6: Speech and Audio
 
 This is about systems that listen to audio or generate audio.
 

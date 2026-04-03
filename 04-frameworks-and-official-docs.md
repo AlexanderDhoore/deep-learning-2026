@@ -9,6 +9,17 @@ The idea is simple:
 - start from the official docs
 - build something small first
 
+## Frameworks Depend on the Domain
+
+You do not need to memorize every framework from the presentation.
+
+The better workflow is:
+
+1. choose a technical path
+2. choose an application domain
+3. open the matching domain note
+4. start from the official docs linked there
+
 ## Main AI Frameworks
 
 ### PyTorch

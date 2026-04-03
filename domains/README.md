@@ -1,0 +1,32 @@
+# Application Domains
+
+This folder contains one short note per application domain.
+
+Use these files after the kickoff presentation.
+
+The goal is not to turn each file into a full tutorial.
+The goal is to help you answer four practical questions:
+
+1. What is this domain?
+2. Why might I choose it?
+3. What kinds of projects fit here?
+4. Which official docs should I open next?
+
+Suggested workflow:
+
+1. start with `01-strategic-project-paths.md`
+2. read `02-overview-and-project-directions.md`
+3. pick one domain in this folder
+4. open the linked official docs
+5. build a small first prototype
+
+Current domain notes:
+
+- `01-computer-vision.md`
+- `02-language-models-and-llm-apps.md`
+- `03-multimodal-and-document-ai.md`
+- `04-semantic-search-and-retrieval.md`
+- `05-recommendation-systems.md`
+- `06-speech-and-audio.md`
+- `07-time-series-and-sensor-signals.md`
+- `08-3d-depth-and-geometry.md`
