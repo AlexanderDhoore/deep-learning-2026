@@ -30,6 +30,21 @@ The challenge is:
 
 So this path is often more about systems engineering than about training theory.
 
+## Hardware You Can Choose From
+
+For this course, this path is not just theoretical.
+There is real hardware available for student projects.
+
+In particular, there are enough shared devices that students can usually borrow one for their work:
+
+- NVIDIA Jetson Orin
+- Radxa Rock 5B
+- Raspberry Pi with a Hailo HAT
+
+There are also other devices available in the broader environment, but these three are especially important because there are roughly 20 of each available for student lending.
+
+That means you can realistically choose an edge-deployment project and target real hardware instead of only simulating deployment.
+
 ## Why You Might Choose It
 
 This is a strong direction for the course if you like:
