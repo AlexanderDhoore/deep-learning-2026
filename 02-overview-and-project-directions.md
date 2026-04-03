@@ -527,19 +527,25 @@ Generative behavior is also cross-cutting:
 
 You do not need to learn every framework.
 
-For this course, the main **AI frameworks** worth focusing on are:
+The exact framework depends strongly on the domain you choose.
 
-- **PyTorch** as the core deep-learning framework
-- **torchvision** and **torchaudio** for domain-specific PyTorch work
-- **Ultralytics YOLO** and **RF-DETR** for practical vision projects
-- **Hugging Face Transformers** for text, multimodal, and pretrained model work
-- **Diffusers** for image generation and adaptation
-- **Sentence Transformers** for embeddings, semantic search, retrieval, and recommendation
-- **Stable-Baselines3** as the easiest RL default
-- **TorchRL** as an optional PyTorch-native RL stack
-- **ONNX Runtime**, **Jetson/JetPack**, **TensorRT**, and optionally **Ollama / llama.cpp** for deployment
+For the whole course, the most important big names to remember are:
 
-Supporting tools such as **Gradio**, **Streamlit**, and **FastAPI** are useful, but they are not the main AI frameworks.
+- **PyTorch** for training or retraining models
+- **Transformers** for pretrained language, multimodal, and speech models
+- **Sentence Transformers** for embeddings, search, retrieval, and recommendation
+
+Then the domain-specific notes can guide you further:
+
+- vision may lead you to YOLO or RF-DETR
+- image generation may lead you to Diffusers
+- reinforcement learning may lead you to Stable-Baselines3
+- deployment may lead you to ONNX Runtime or Jetson tools
+
+So you do not need to memorize the whole framework landscape from this talk.
+Choose your domain first, then study the matching tools in more detail.
+
+Supporting tools such as **Gradio**, **Streamlit**, **FastAPI**, and even a custom **React** frontend are useful, but they are not the main AI frameworks.
 They are optional support layers around the AI system.
 
 A good mental model is:
@@ -611,23 +617,7 @@ But at the exam, **you** must understand the result.
 
 ---
 
-## 10. Simple Recommendation If You Are Unsure
-
-If you are unsure, start with one of these:
-
-- a computer vision app based on YOLO or RF-DETR
-- an LLM tool app based on Transformers or Ollama
-- a speech-to-text or text-to-speech app
-- a multimodal app
-- a semantic search or retrieval app based on embeddings
-- a recommendation app based on embeddings
-- an edge/deployment project using ONNX Runtime or Jetson
-
-These domains are usually easier to scope and demo than reinforcement learning.
-
----
-
-## 11. Final Message
+## 10. Final Message
 
 Deep learning is a wide field.
 

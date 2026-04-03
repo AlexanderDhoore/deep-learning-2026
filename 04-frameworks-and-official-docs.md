@@ -248,6 +248,15 @@ They support the application around the model.
   - data apps
   - quick interfaces
 
+### React
+
+- Main role: custom frontend development with maximum control
+- Official docs: <https://react.dev/>
+- Good for:
+  - richer custom interfaces
+  - frontend-heavy applications
+  - students who want more control and are willing to accept more complexity
+
 ## Backend APIs
 
 ### FastAPI

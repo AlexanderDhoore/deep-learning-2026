@@ -4,6 +4,7 @@ author: "Alexander D'hoore"
 format:
   pptx:
     reference-doc: template-deep-learning.pptx
+    slide-level: 2
     monofont: "Cousine"
 ---
 
@@ -331,20 +332,15 @@ Examples:
 
 # Framework Suggestions
 
-## Main AI Frameworks Worth Exploring
+## Frameworks Depend on the Domain
 
-- **PyTorch**
-  - best for direct training or retraining
-- **Transformers**
-  - best for pretrained language, multimodal, and speech models
-- **Diffusers**
-  - best for image generation and related workflows
-- **Sentence Transformers**
-  - best for embeddings, retrieval, and recommendation
-- **Stable-Baselines3**
-  - easiest RL starting point
-- **ONNX Runtime**
-  - strong deployment path
+- You do not need to memorize every framework from this talk.
+- The exact framework depends on the domain you choose.
+- Three big names to remember:
+  - PyTorch
+  - Transformers
+  - Sentence Transformers
+- After choosing a domain, read the matching notes and official docs.
 
 ## Supporting Tools
 
@@ -352,23 +348,12 @@ Examples:
   - Gradio
   - Streamlit
   - FastAPI
+  - React or another custom frontend
 - Most of you will probably build some kind of interface.
 - Gradio is a very good default if you want to move fast.
+- React gives more control, but also more complexity.
 
 ![](media/frontend-user-interfaces.jpg)
-
-## My Recommendation If You Are Unsure
-
-Start with one of these:
-
-- a computer vision app with YOLO or RF-DETR
-- an LLM app with Ollama or Transformers
-- a semantic search app with Sentence Transformers
-- a recommendation app with Sentence Transformers
-- a speech tool
-- an edge deployment project with a ready model
-
-These are usually easier to scope well than reinforcement learning or large-model fine-tuning.
 
 # Final Expectations
 
@@ -396,3 +381,9 @@ These are usually easier to scope well than reinforcement learning or large-mode
 - choose a framework stack
 - sketch a project idea
 - start building
+
+# Good Luck
+
+- Pick something you find genuinely interesting.
+- Build something real.
+- Learn your tools deeply enough to explain what you made.
