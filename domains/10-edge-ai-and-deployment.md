@@ -47,7 +47,7 @@ There are also extra devices in the broader environment, including:
 - Raspberry Pi with a Hailo HAT
 - NVIDIA DGX Spark
 
-The Raspberry Pi with Hailo HAT belongs more to that extra category rather than the large shared pool.
+There are only a few Raspberry Pi systems with a Hailo HAT available, but they are very approachable for machine-vision projects.
 The DGX Spark is also interesting for some students because it is a very powerful machine.
 
 That means you can realistically choose an edge-deployment project and target real hardware instead of only simulating deployment.
