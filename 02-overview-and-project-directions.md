@@ -521,6 +521,15 @@ Generative behavior is also cross-cutting:
 - music generation
 - multimodal generation
 
+So if you want a generative project, you usually do not need a separate "generative domain".
+Instead, choose the domain that best matches your main modality:
+
+- language models for text generation and assistants
+- speech and audio for voice or music workflows
+- multimodal and document AI for richer mixed-media systems
+
+Then use the frameworks page to find the right generative tooling.
+
 ---
 
 ## 6. Which Frameworks Matter Most?

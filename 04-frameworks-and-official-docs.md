@@ -88,15 +88,26 @@ The better workflow is:
 
 ## Generative AI
 
+Generative AI is not treated as one separate application domain in this repository.
+
+Instead, it appears across several domains:
+
+- text generation in language-model projects
+- image generation in visual workflows
+- speech or music generation in audio workflows
+- multimodal generation in richer assistant-style systems
+
+Use this section as the main cross-cutting starting point if your project is generative.
+
 ### Hugging Face Diffusers
 
 - Main role: diffusion models for images, video, and audio
 - Official docs: <https://huggingface.co/docs/diffusers/en/index>
 - Good for:
-  - text-to-image
-  - image-to-image
-  - inpainting
-  - other diffusion workflows
+- text-to-image
+- image-to-image
+- inpainting
+- other diffusion workflows
 
 ### Fine-tuning and adaptation
 
