@@ -11,7 +11,21 @@ They are also based on the kind of technical path a student chooses.
 
 ## Path 1: Train Your Own Neural Network
 
-This path is for students who want to train or fine-tune their own model in a relatively classical deep-learning workflow.
+This path is for students who want to train or retrain a model in a relatively classical deep-learning workflow.
+
+Important note:
+
+this path can still start from a pretrained model.
+
+For example:
+
+- start from a pretrained MobileNet
+- replace the last layer if needed
+- continue training the model on your own dataset
+- update the normal model weights through standard training
+
+So this path is **not** limited to training from random initialization.
+It also includes the common practical workflow of transfer learning where you start from pretrained weights and then retrain the model normally.
 
 Typical areas:
 
@@ -39,6 +53,13 @@ Why this path matters:
 
 - it teaches the basic deep-learning workflow directly
 - dataset -> model -> training -> evaluation -> deployment
+
+Typical wording to use in class:
+
+- transfer learning
+- retraining
+- training from pretrained weights
+- updating the normal model weights
 
 ## Path 2: Build With Pretrained Foundation Models
 
@@ -78,6 +99,40 @@ This path sits between Path 1 and Path 2.
 
 The student does not build a model from scratch, but also does more than just call an existing model.
 
+This path is especially important for large foundation models such as:
+
+- large language models
+- image generation models
+- other very large pretrained systems
+
+In these cases, it is often not practical to retrain the whole model.
+Instead, the student adapts only part of it, or adds trainable adapters.
+
+That is the key difference with Path 1.
+
+### Difference between Path 1 and Path 3
+
+Path 1:
+
+- normal training workflow
+- often updates the model weights in the usual way
+- may start from pretrained weights
+- common for CNNs, detectors, audio models, and smaller custom models
+
+Path 3:
+
+- adaptation of a large pretrained foundation model
+- often does **not** update the whole model
+- usually uses parameter-efficient methods
+- common for LLMs and diffusion models
+
+Typical parameter-efficient methods:
+
+- LoRA
+- PEFT
+- adapters
+- DreamBooth-style adaptation
+
 Typical areas:
 
 - LLM fine-tuning
@@ -102,6 +157,7 @@ Why this path matters:
 
 - it is one of the most interesting modern engineering paths
 - it helps students understand the difference between prompting, inference, and actual model adaptation
+- it teaches that "fine-tuning" can mean very different things depending on model scale
 
 ## Path 4: Reinforcement Learning and Control
 

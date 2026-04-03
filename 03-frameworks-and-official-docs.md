@@ -17,6 +17,10 @@ The idea is simple:
 - Good for: almost everything
 - Official site: <https://pytorch.org/>
 - Why it matters: this is the most important base framework to know in this course
+- Best fit in this course:
+  - training your own model
+  - retraining a pretrained model in the normal way
+  - transfer learning on smaller or medium-sized models
 
 ### torchvision
 
@@ -81,6 +85,8 @@ The idea is simple:
 - Why it matters:
   - students can go beyond inference
   - fine-tuning or adaptation is a valid project category in this course
+  - this is different from ordinary transfer learning on a smaller PyTorch model
+  - for large foundation models, students will often adapt only part of the model with methods like LoRA or PEFT
 
 ## Computer Vision
 

@@ -80,6 +80,13 @@ See also:
 
 - [`00-strategic-project-paths.md`](00-strategic-project-paths.md)
 
+One important distinction:
+
+- in classical deep learning, you may start from a pretrained model such as MobileNet and still retrain the model in the usual way
+- in modern foundation-model work, "fine-tuning" often means adapting only part of a very large model with methods like LoRA or PEFT
+
+So not every use of pretrained weights belongs in the same bucket.
+
 ## 4. Then Choose an Application Domain
 
 After that, choose the application area where you want to apply that path.
@@ -375,6 +382,11 @@ For this course, the main **AI frameworks** worth pointing students toward are:
 
 Supporting tools such as **Gradio**, **Streamlit**, and **FastAPI** are useful, but they are not the main AI frameworks.
 They are optional support layers around the AI system.
+
+For the students, a good mental model is:
+
+- `PyTorch` when you want to train or retrain a model more directly
+- `Transformers` / `Diffusers` when you want to build with or adapt large pretrained foundation models
 
 ---
 
