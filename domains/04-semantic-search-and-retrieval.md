@@ -301,7 +301,7 @@ If you want a stronger backend flavor, add Faiss or Qdrant.
 
 If you want a chatbot over documents, combine retrieval with a language model only after the retrieval step is already working clearly.
 
-For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
+For generic interface or backend tooling, use the top-level support-tooling page instead of this domain note.
 
 ## How To Choose a Good Retrieval Project
 

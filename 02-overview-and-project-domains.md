@@ -510,7 +510,7 @@ If you want a generative project, choose the domain that best matches what you w
 - computer vision or multimodal systems for image workflows
 - speech and audio for voice or music workflows
 
-Then use the frameworks page to find the right tooling.
+Then use the matching domain note to find the right AI tooling.
 
 ---
 

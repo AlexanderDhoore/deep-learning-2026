@@ -275,7 +275,7 @@ If you want a training-focused route, start with PyTorch and tsai.
 
 If you want a forecasting route, start with NeuralForecast.
 
-For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
+For generic interface or backend tooling, use the top-level support-tooling page instead of this domain note.
 
 ## How To Choose a Good Time-Series Project
 

@@ -17,8 +17,8 @@ The course is short and strongly practice-oriented. The main goal is not to cove
   Main kickoff text for the lesson: broad field overview plus project-domain framing.
 - `03-assignment-brief.md`
   Assignment expectations and scope.
-- `04-frameworks-and-official-docs.md`
-  Short shared-tools page for broad ecosystems, adaptation docs, and generic support tooling.
+- `04-generic-support-tooling.md`
+  Short shared-tools page for interfaces, APIs, frontend choices, and packaging.
 - `domains/`
   One short file per student-facing project domain. Most are application domains, and a few are important path-style options such as reinforcement learning and edge deployment.
 - `slides/`

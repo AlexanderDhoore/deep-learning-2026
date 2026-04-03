@@ -235,7 +235,7 @@ If you want the safest edge project, start with a vision model or a small local 
 
 If you want the strongest systems story, measure performance clearly and explain the deployment tradeoffs well.
 
-For generic packaging or API tooling, use the top-level frameworks page instead of this domain note.
+For generic packaging or API tooling, use the top-level support-tooling page instead of this domain note.
 
 ## How To Choose a Good Edge Deployment Project
 

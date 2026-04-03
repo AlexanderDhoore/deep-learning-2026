@@ -281,7 +281,7 @@ If you choose detection, start with YOLO or RF-DETR.
 
 If you choose a project with images or video, OpenCV will often still be useful somewhere in the pipeline.
 
-For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
+For generic interface or backend tooling, use the top-level support-tooling page instead of this domain note.
 
 ## How To Choose a Good Computer-Vision Project
 

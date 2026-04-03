@@ -243,7 +243,7 @@ If you want the safest route, start with depth estimation.
 
 If you want a more experimental route, explore image-to-3D or text-to-3D models on Hugging Face first and make sure you can run one example before designing the rest of the application.
 
-For generic interface or visualization tooling, use the top-level frameworks page instead of this domain note.
+For generic interface or visualization tooling, use the top-level support-tooling page instead of this domain note.
 
 ## How To Choose a Good 3D or Geometry Project
 

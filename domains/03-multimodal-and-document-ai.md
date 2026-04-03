@@ -289,7 +289,7 @@ If your project is document-heavy, start with docTR and the document-question-an
 
 If you want a simple local assistant workflow, start with a vision-capable local model.
 
-For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
+For generic interface or backend tooling, use the top-level support-tooling page instead of this domain note.
 
 ## How To Choose a Good Multimodal Project
 

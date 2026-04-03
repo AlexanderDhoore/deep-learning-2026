@@ -293,7 +293,7 @@ For audio preprocessing and model training, use torchaudio with PyTorch.
 
 For text-to-speech, start from a dedicated TTS library.
 
-For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
+For generic interface or backend tooling, use the top-level support-tooling page instead of this domain note.
 
 ## How To Choose a Good Speech or Audio Project
 

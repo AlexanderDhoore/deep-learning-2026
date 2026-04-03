@@ -338,7 +338,7 @@ If you want the broadest official model ecosystem, start with Transformers.
 
 If your idea involves retrieval or meaning-based search, include Sentence Transformers early.
 
-For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
+For generic interface or backend tooling, use the top-level support-tooling page instead of this domain note.
 
 ## How To Choose a Good Language-Model Project
 

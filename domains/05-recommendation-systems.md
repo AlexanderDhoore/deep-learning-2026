@@ -275,7 +275,7 @@ If you want the easiest route, start with Sentence Transformers and a small cura
 
 If you later want a more custom ranking story, bring in PyTorch.
 
-For generic interface or backend tooling, use the top-level frameworks page instead of this domain note.
+For generic interface or backend tooling, use the top-level support-tooling page instead of this domain note.
 
 ## How To Choose a Good Recommendation Project
 
