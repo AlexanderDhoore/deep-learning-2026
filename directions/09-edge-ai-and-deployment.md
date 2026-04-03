@@ -1,4 +1,4 @@
-# Direction 8: Edge AI and Deployment
+# Direction 9: Edge AI and Deployment
 
 ## Good fit if you like
 

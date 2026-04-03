@@ -60,7 +60,8 @@ format:
   - speech and audio
   - multimodal and document AI
   - time-series and sensor signals
-  - semantic search / retrieval / recommendation
+  - semantic search / retrieval
+  - recommendation systems
   - reinforcement learning
   - edge deployment
 
@@ -210,7 +211,7 @@ Examples:
   - vision-capable local models
   - document tools such as docTR
 
-## Semantic Search, Retrieval, and Recommendation
+## Semantic Search and Retrieval
 
 - This is one of the most practical modern AI directions.
 - It is based on embeddings:
@@ -219,8 +220,16 @@ Examples:
 - Typical projects:
   - semantic search
   - retrieval-augmented chatbot
-  - recommendation app
   - similar-item finder
+
+## Recommendation Systems
+
+- This direction is closely related to embeddings, but the user experience is different from search.
+- Typical projects:
+  - music or media recommender
+  - product recommendation demo
+  - similar-item recommender
+  - recommendation UI based on embeddings
 
 ## Speech, Audio, and Time-Series
 
@@ -281,7 +290,8 @@ Start with one of these:
 
 - a computer vision app with YOLO or RF-DETR
 - an LLM app with Ollama or Transformers
-- a retrieval / recommendation app with Sentence Transformers
+- a semantic search app with Sentence Transformers
+- a recommendation app with Sentence Transformers
 - a speech tool
 - an edge deployment project with a ready model
 

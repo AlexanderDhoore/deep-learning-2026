@@ -1,4 +1,4 @@
-# Direction 7: Reinforcement Learning and Control
+# Direction 8: Reinforcement Learning and Control
 
 ## Good fit if you like
 

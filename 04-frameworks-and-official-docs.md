@@ -266,10 +266,16 @@ If you want to move fast, pick one of these:
 - Sentence Transformers if search/retrieval is needed
 - Gradio or FastAPI
 
-### Semantic search or recommendation app
+### Semantic search or retrieval app
 
 - Sentence Transformers
 - Transformers if needed for retrieval pipelines
+- Gradio or FastAPI
+
+### Recommendation app
+
+- Sentence Transformers
+- vector search or ranking logic
 - Gradio or FastAPI
 
 ### Audio app

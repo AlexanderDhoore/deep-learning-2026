@@ -222,7 +222,8 @@ After choosing a strategic path, choose an application area:
 - speech and audio
 - multimodal and document AI
 - time-series and sensor signals
-- semantic search, retrieval, and recommendation
+- semantic search and retrieval
+- recommendation systems
 
 Generative systems are best treated as a cross-cutting theme:
 

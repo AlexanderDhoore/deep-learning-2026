@@ -268,22 +268,20 @@ Why this is a good direction:
 - good fit with electronics/ICT
 - does not need flashy graphics to be meaningful
 
-### Direction 6: Semantic Search, Retrieval, and Recommendation
+### Direction 6: Semantic Search and Retrieval
 
-This is about turning data into embeddings and then using those embeddings to search, retrieve, rank, or recommend.
+This is about turning data into embeddings and then using those embeddings to search or retrieve by meaning.
 
 Typical tasks:
 
 - semantic search
 - retrieval-augmented generation
-- recommendation
 - similarity matching
 - nearest-neighbor search
 
 Typical examples:
 
 - search through notes or documents by meaning
-- recommend songs, products, or media
 - build a chatbot that first retrieves relevant context
 - find similar images, texts, or items
 
@@ -300,7 +298,38 @@ Why this is a good direction:
 - highly relevant in modern AI products
 - easier to scope than many full fine-tuning projects
 
-### Direction 7: Reinforcement Learning and Control
+### Direction 7: Recommendation Systems
+
+This is about using embeddings, ranking, or preference signals to suggest useful items to a user.
+
+Typical tasks:
+
+- content-based recommendation
+- similarity-based recommendation
+- ranking
+- personalized suggestions
+
+Typical examples:
+
+- recommend songs, products, or media
+- build a movie or music recommender
+- suggest similar articles, images, or products
+- create a recommendation tool around a small curated dataset
+
+Good tools:
+
+- Sentence Transformers
+- PyTorch for custom ranking experiments
+- vector databases or plain vector search libraries
+- Gradio / Streamlit / FastAPI
+
+Why this is a good direction:
+
+- it is different from search, even if both often use embeddings
+- it is a very realistic product-oriented AI direction
+- it can lead to a strong demo with a clear user experience
+
+### Direction 8: Reinforcement Learning and Control
 
 This is about learning by interaction and reward.
 
@@ -335,7 +364,7 @@ Why it is riskier:
 - can be less predictable than other directions
 - often more difficult to finish cleanly
 
-### Direction 8: Edge AI and Deployment
+### Direction 9: Edge AI and Deployment
 
 This is about making models run efficiently on real hardware.
 
@@ -396,7 +425,7 @@ For this course, the main **AI frameworks** worth focusing on are:
 - **Ultralytics YOLO** and **RF-DETR** for practical vision projects
 - **Hugging Face Transformers** for text, multimodal, and pretrained model work
 - **Diffusers** for image generation and adaptation
-- **Sentence Transformers** for embeddings and semantic search
+- **Sentence Transformers** for embeddings, semantic search, retrieval, and recommendation
 - **Stable-Baselines3** as the easiest RL default
 - **TorchRL** as an optional PyTorch-native RL stack
 - **ONNX Runtime**, **Jetson/JetPack**, **TensorRT**, and optionally **Ollama / llama.cpp** for deployment
@@ -408,7 +437,7 @@ A good mental model is:
 
 - `PyTorch` when you want to train or retrain a model more directly
 - `Transformers` / `Diffusers` when you want to build with or adapt large pretrained foundation models
-- `Sentence Transformers` when you want embeddings, retrieval, or recommendation
+- `Sentence Transformers` when you want embeddings, search, retrieval, or recommendation
 - `Stable-Baselines3` when you want the easiest RL starting point
 
 ---
@@ -481,7 +510,8 @@ If you are unsure, start with one of these:
 - an LLM tool app based on Transformers or Ollama
 - a speech-to-text or text-to-speech app
 - a multimodal app
-- a semantic search or recommendation app based on embeddings
+- a semantic search or retrieval app based on embeddings
+- a recommendation app based on embeddings
 - an edge/deployment project using ONNX Runtime or Jetson
 
 These directions are usually easier to scope and demo than reinforcement learning.
