@@ -42,16 +42,7 @@ These are useful across multiple domains.
 
 ## Generative AI and Adaptation
 
-Generative AI is not treated as one separate application domain in this repository.
-
-Instead, it appears across several directions:
-
-- text generation in language-model projects
-- image generation in visual workflows
-- speech or music generation in audio workflows
-- multimodal generation in richer assistant-style systems
-
-Use the matching domain note first, then use the links below if you need shared generative tooling.
+If you want to build something generative, use the matching domain note first and then use the links below for shared generative tooling.
 
 ### Hugging Face Diffusers
 

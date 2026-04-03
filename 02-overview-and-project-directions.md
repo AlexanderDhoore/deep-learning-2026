@@ -157,9 +157,7 @@ After that, choose the application domain where you want to apply that path.
 
 Below is a practical map of application domains.
 
-These are not rigid categories.
-They overlap.
-But they help you imagine possible projects.
+These domains help you imagine possible projects.
 
 The key idea is simple:
 
@@ -506,22 +504,13 @@ Examples:
 - speech + Path 3: adapt a model to a specific voice
 - multimodal + Path 2: use a vision-language model
 
-Generative behavior is also cross-cutting:
-
-- text generation
-- image generation
-- speech generation
-- music generation
-- multimodal generation
-
-So if you want a generative project, you usually do not need a separate "generative domain".
-Instead, choose the domain that best matches your main modality:
+If you want a generative project, choose the domain that best matches what you want to build:
 
 - language models for text generation and assistants
+- computer vision or multimodal systems for image workflows
 - speech and audio for voice or music workflows
-- multimodal and document AI for richer mixed-media systems
 
-Then use the frameworks page to find the right generative tooling.
+Then use the frameworks page to find the right tooling.
 
 ---
 

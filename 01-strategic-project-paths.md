@@ -271,17 +271,7 @@ After choosing a strategic path, choose an application area:
 - semantic search and retrieval
 - recommendation systems
 
-Generative systems are best treated as a cross-cutting theme:
-
-- text generation
-- image generation
-- audio generation
-- multimodal generation
-
 This two-level model is probably the best way to explain the field:
 
 1. choose a technical path
 2. choose an application domain
-
-So "generative AI" is not one separate modality next to vision or audio.
-It is something that can happen inside several modalities.
