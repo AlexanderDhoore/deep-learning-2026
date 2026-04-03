@@ -1,19 +1,13 @@
-# Edge AI and Deployment
+# Domain 10: Edge AI and Deployment
 
-This note is for students who are interested in the deployment path rather than mainly the model-training path.
+Edge AI and deployment is also a special case in this folder.
 
-Edge AI is not really a separate application domain like vision, language, or audio.
-It is a technical path.
+It is not a pure application domain like vision, language, or audio.
+It is a project direction centered on where the model runs and how well it runs there.
 
-That means the central question is not:
+It is included here because, from a student point of view, it is still a clear project path you might choose.
 
-> What kind of data do I work on?
-
-but:
-
-> Where does the model run, and how do I make it run well there?
-
-## What This Path Is
+## What This Direction Is
 
 Many projects in this course will run on your GPU server.
 
@@ -25,7 +19,7 @@ The edge deployment path is about running a model somewhere else, such as:
 - on another embedded or edge device
 - on a smaller local machine instead of a large server
 
-In this path, the challenge is often not training a brand-new model.
+In this direction, the challenge is often not training a brand-new model.
 The challenge is:
 
 - exporting the model
@@ -38,7 +32,7 @@ So this path is often more about systems engineering than about training theory.
 
 ## Why You Might Choose It
 
-This is a strong path for the course if you like:
+This is a strong direction for the course if you like:
 
 - embedded systems
 - optimization
@@ -70,7 +64,7 @@ Good project ideas include:
 - export a vision model and test it on edge hardware
 - compare server inference and local inference
 
-This path fits especially well with:
+This direction fits especially well with:
 
 - computer vision
 - local LLM serving
@@ -79,40 +73,12 @@ This path fits especially well with:
 
 The strongest projects usually choose one model that already works and treat deployment itself as the main technical challenge.
 
-## Typical Technical Workflow
+## Which Technical Path This Fits
 
-A typical project in this path may look like:
+This file is essentially the student-facing companion to `Path 5: Edge AI and Deployment`.
 
-1. choose a model that already works
-2. run it normally first
-3. export or convert it if needed
-4. choose a runtime
-5. deploy it on the target device
-6. measure latency, memory use, and usability
-7. build a small interface or demo around it
-
-That is already a very valid project.
-
-You do not need to both:
-
-- train the hardest possible model
-- and do the hardest possible deployment
-
-at the same time.
-
-In fact, for this course, that is usually a bad idea.
-
-## Which Domains Combine Well With This Path
-
-Edge deployment is not its own application domain.
-It combines with other domains.
-
-Strong combinations include:
-
-- computer vision + edge deployment
-- language models + local deployment
-- speech/audio + local inference
-- time-series monitoring + device deployment
+So unlike the other files in `domains/`, this is not mainly about a modality.
+It is about running models efficiently on target hardware.
 
 The simplest and strongest combination is often:
 
@@ -284,4 +250,4 @@ If those answers are clear, the project is probably well scoped.
 
 A clean deployment demo with good measurements is usually stronger than a very ambitious project that tries to redesign the whole model as well.
 
-For this course, this is one of the strongest paths if you like systems engineering and want a project that connects AI to real hardware and real deployment constraints.
+For this course, this is one of the strongest directions if you like systems engineering and want a project that connects AI to real hardware and real deployment constraints.

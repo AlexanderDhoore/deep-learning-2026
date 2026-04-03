@@ -1,6 +1,14 @@
-# Application Domains
+# Project Domains
 
-This folder contains one short note per application domain.
+This folder contains one short note per student-facing project direction.
+
+Most files are true application domains.
+Two files are slightly different:
+
+- reinforcement learning and control
+- edge AI and deployment
+
+Those are not pure domains in the academic sense, but they are important project directions for this course, so they are kept here for easier navigation.
 
 Use these files after the kickoff presentation.
 
@@ -30,3 +38,5 @@ Current domain notes:
 - `06-speech-and-audio.md`
 - `07-time-series-and-sensor-signals.md`
 - `08-3d-depth-and-geometry.md`
+- `09-reinforcement-learning-and-control.md`
+- `10-edge-ai-and-deployment.md`
