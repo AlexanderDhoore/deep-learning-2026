@@ -1,0 +1,10 @@
+services:
+  quarto:
+    build: .
+    volumes:
+      - .:/data
+    environment:
+      QUARTO_FILE: deep-learning-project-directions.qmd
+    ports:
+      - "8080:8080"
+

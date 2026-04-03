@@ -19,6 +19,8 @@ The course is short and strongly practice-oriented. The main goal is not to cove
   First draft of the assignment concept.
 - `04-frameworks-and-official-docs.md`
   Curated list of useful frameworks plus official docs to start from.
+- `slides/`
+  Quarto-based slide deck source plus the generated PowerPoint for the kickoff presentation.
 - `directions/`
   One short file per application direction, plus a few cross-cutting themes.
 
