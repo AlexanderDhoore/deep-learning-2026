@@ -1,4 +1,4 @@
-# Deep Learning: Broad Overview and Project Directions
+# Deep Learning: Broad Overview and Project Domains
 
 Use this document as a practical overview before you start working on your project.
 
@@ -8,7 +8,7 @@ The goal is to answer three practical questions:
 
 1. What kinds of deep-learning systems exist?
 2. Which tools and frameworks could I use?
-3. Which direction could I choose for my own project?
+3. Which domain could I choose for my own project?
 
 ---
 
@@ -41,7 +41,7 @@ You are not expected to become a deep-learning researcher in a few weeks.
 
 You are expected to:
 
-- choose a direction
+- choose a domain
 - learn a framework or model stack
 - build a working application
 - understand the code, architecture, and choices you made
@@ -158,17 +158,29 @@ This path is about running a model somewhere else:
 
 Here the challenge is often export, optimization, latency, and runtime choice rather than training a brand-new model.
 
-## 4. Then Choose an Application Direction
+## 4. Then Choose an Application Domain
 
-After that, choose the application area where you want to apply that path.
+After that, choose the application domain where you want to apply that path.
 
-Below is a practical map of application directions.
+Below is a practical map of application domains.
 
 These are not rigid categories.
 They overlap.
 But they help you imagine possible projects.
 
-### Direction 1: Computer Vision
+The key idea is simple:
+
+- the technical path tells you **how** you work with models
+- the application domain tells you **what kind of data or problem** you work on
+
+One domain can combine with several technical paths.
+For example:
+
+- computer vision can use your own trained model, a pretrained model, or edge deployment
+- language models usually fit Path 2 or Path 3
+- audio can fit Path 1, Path 2, or Path 3
+
+### Domain 1: Computer Vision
 
 This is about using AI on images or video.
 
@@ -177,6 +189,8 @@ Typical tasks:
 - image classification
 - object detection
 - segmentation
+- depth estimation
+- keypoint detection
 - pose estimation
 - visual inspection
 - counting objects
@@ -194,16 +208,19 @@ Good tools:
 - PyTorch
 - torchvision / timm
 - Ultralytics YOLO
+- RF-DETR
 - OpenCV
 
-Why this is a good direction:
+Why this is a good domain:
 
 - visual output
 - easy to demo
 - many pretrained models exist
 - easy to build a web app around it
+- it is an established field, but still extremely powerful
+- it solves many real industrial problems very well
 
-### Direction 2: Language Models, Text Apps, and Chat Systems
+### Domain 2: Language Models and Text Systems
 
 This is about text-based AI systems.
 
@@ -216,6 +233,7 @@ Typical tasks:
 - rewriting
 - information extraction
 - tool calling
+- text ranking
 
 Typical examples:
 
@@ -224,6 +242,7 @@ Typical examples:
 - a chatbot for a specific topic
 - a document question-answering app
 - an AI assistant that uses external tools
+- a tool-calling assistant that searches, summarizes, or automates steps for the user
 
 Good tools:
 
@@ -232,45 +251,26 @@ Good tools:
 - Sentence Transformers
 - Gradio or FastAPI
 
-Why this is a good direction:
+Why this is a good domain:
 
 - you already saw some of this in the generative AI workshop
 - easy to prototype quickly
 - easy to connect to a frontend
 
-### Direction 3: Speech and Audio AI
+Important note:
 
-This is about systems that listen to audio or generate audio.
+- this domain usually uses pretrained models or fine-tuned models
+- training your own language model from scratch is usually not realistic
+- so this domain fits especially well with Path 2 and Path 3
 
-Typical tasks:
+Tool calling is especially powerful here:
 
-- speech-to-text
-- text-to-speech
-- speaker recognition
-- sound classification
-- audio generation
+- the model does not only generate text
+- it can also decide when to call a tool
+- for example: search, calculator, database lookup, or another API
+- that can become a whole project by itself
 
-Typical examples:
-
-- a voice note transcriber
-- a speech-based chatbot
-- a sound-event detector
-- a text-to-speech assistant
-
-Good tools:
-
-- Whisper
-- Kokoro or another TTS library
-- Hugging Face Transformers
-- Gradio
-
-Why this is a good direction:
-
-- very interactive
-- easy to combine with LLMs
-- good for multimodal demos
-
-### Direction 4: Multimodal AI and Document AI
+### Domain 3: Multimodal and Document AI
 
 This is about combining multiple input or output types:
 
@@ -299,15 +299,142 @@ Good tools:
 
 - Hugging Face Transformers
 - Ollama vision-capable models
+- docTR
 - Gradio
 
-Why this is a good direction:
+Why this is a good domain:
 
 - feels modern
 - shows that deep learning is broader than just chatbots
 - often creates strong demos
+- you already saw a small example of this in the generative AI workshop
 
-### Direction 5: Time-Series and Sensor Signals
+### Domain 4: Semantic Search and Retrieval
+
+This domain is based on embeddings.
+
+An embedding is a vector representation of data such as:
+
+- text
+- image
+- audio
+
+The key idea is that items with similar meaning end up close together in vector space.
+
+That makes it possible to:
+
+- search by meaning, not only by exact words
+- retrieve relevant context
+- find similar items
+
+Typical tasks:
+
+- semantic search
+- retrieval-augmented generation
+- similarity matching
+- nearest-neighbor search
+
+Typical examples:
+
+- search through notes or documents by meaning
+- build a chatbot that first retrieves relevant context
+- find similar images, texts, or items
+- search through a knowledge base or course archive
+
+Good tools:
+
+- Sentence Transformers
+- Transformers
+- vector databases or plain vector search libraries
+- Gradio / Streamlit / FastAPI
+
+Why this is a good domain:
+
+- very practical
+- highly relevant in modern AI products
+- easier to scope than many full fine-tuning projects
+
+RAG is part of this domain:
+
+- first retrieve relevant context from documents
+- then pass that context to a language model
+- then generate the answer with better grounding
+
+### Domain 5: Recommendation Systems
+
+This is about using embeddings, ranking, or preference signals to suggest useful items to a user.
+
+Typical tasks:
+
+- content-based recommendation
+- similarity-based recommendation
+- ranking
+- personalized suggestions
+
+Typical examples:
+
+- recommend songs, products, or media
+- build a movie or music recommender
+- suggest similar articles, images, or products
+- create a recommendation tool around a small curated dataset
+
+Good tools:
+
+- Sentence Transformers
+- PyTorch for custom ranking experiments
+- vector databases or plain vector search libraries
+- Gradio / Streamlit / FastAPI
+
+Why this is a good domain:
+
+- it is different from search, even if both often use embeddings
+- it is a very realistic product-oriented AI domain
+- it can lead to a strong demo with a clear user experience
+
+### Domain 6: Speech and Audio AI
+
+This is about systems that listen to audio or generate audio.
+
+Typical tasks:
+
+- speech-to-text
+- text-to-speech
+- speaker recognition
+- sound classification
+- audio generation
+- music generation
+- audio-to-audio transformation
+
+Typical examples:
+
+- a voice note transcriber
+- a speech-based chatbot
+- a sound-event detector
+- a text-to-speech assistant
+- a music generation demo
+- a system that speaks in a customized voice
+
+Good tools:
+
+- Whisper
+- Kokoro or another TTS library
+- Hugging Face Transformers
+- torchaudio
+- Gradio
+
+Why this is a good domain:
+
+- very interactive
+- easy to combine with LLMs
+- good for multimodal demos
+
+This domain can use several technical paths:
+
+- Path 1 if you want to train or retrain your own audio model
+- Path 2 if you want to use pretrained speech or music models
+- Path 3 if you want to adapt a model to a specific voice or style
+
+### Domain 7: Time-Series and Sensor Signals
 
 This is about signals measured over time.
 
@@ -333,155 +460,66 @@ Good tools:
 - pandas / polars for preprocessing
 - Gradio / Streamlit / FastAPI for interfaces
 
-Why this is a good direction:
+Why this is a possible domain:
 
 - relevant to industrial applications, but not limited to industry
 - good fit with electronics/ICT
 - does not need flashy graphics to be meaningful
+- it can be strong if you already have an interesting dataset
 
-### Direction 6: Semantic Search and Retrieval
+This domain is probably less immediately attractive than images, text, or audio for this course, but it is still valuable, especially if you want something more industrial.
 
-This is about turning data into embeddings and then using those embeddings to search or retrieve by meaning.
+### Domain 8: 3D, Depth, and Geometry
 
-Typical tasks:
-
-- semantic search
-- retrieval-augmented generation
-- similarity matching
-- nearest-neighbor search
-
-Typical examples:
-
-- search through notes or documents by meaning
-- build a chatbot that first retrieves relevant context
-- find similar images, texts, or items
-
-Good tools:
-
-- Sentence Transformers
-- Transformers
-- vector databases or plain vector search libraries
-- Gradio / Streamlit / FastAPI
-
-Why this is a good direction:
-
-- very practical
-- highly relevant in modern AI products
-- easier to scope than many full fine-tuning projects
-
-### Direction 7: Recommendation Systems
-
-This is about using embeddings, ranking, or preference signals to suggest useful items to a user.
+This is a more niche domain, but it is worth mentioning.
 
 Typical tasks:
 
-- content-based recommendation
-- similarity-based recommendation
-- ranking
-- personalized suggestions
+- depth estimation
+- image-to-3D
+- text-to-3D
+- 3D representation learning
+- point-cloud or geometry-related workflows
 
 Typical examples:
 
-- recommend songs, products, or media
-- build a movie or music recommender
-- suggest similar articles, images, or products
-- create a recommendation tool around a small curated dataset
+- estimate scene depth from an image
+- generate a 3D object from an image or prompt
+- build a workflow around 3D model generation
+- explore point-cloud style outputs
 
 Good tools:
 
-- Sentence Transformers
-- PyTorch for custom ranking experiments
-- vector databases or plain vector search libraries
-- Gradio / Streamlit / FastAPI
-
-Why this is a good direction:
-
-- it is different from search, even if both often use embeddings
-- it is a very realistic product-oriented AI direction
-- it can lead to a strong demo with a clear user experience
-
-### Direction 8: Reinforcement Learning and Control
-
-This is about learning by interaction and reward.
-
-Typical tasks:
-
-- game playing
-- robot control
-- decision making
-- control policies
-
-Typical examples:
-
-- train an agent in a simulation
-- compare policies on a small control task
-- build an interactive RL demo
-
-Good tools:
-
-- Gymnasium
-- Stable-Baselines3
-- TorchRL
+- Hugging Face models for depth or 3D tasks
 - PyTorch
+- Gradio or a custom visualization frontend
 
-Why this is a possible direction:
+Why this is interesting:
 
-- conceptually interesting
-- good if you like control or simulation
+- it shows that the field is broader than the most common demos
+- some very interesting pretrained models already exist here
 
-Why it is riskier:
+## 5. Technical Paths and Application Domains Work Together
 
-- harder to explain well in a short time
-- can be less predictable than other directions
-- often more difficult to finish cleanly
+The paths and the domains are not competing systems.
+They combine.
 
-### Direction 9: Edge AI and Deployment
+Examples:
 
-This is about making models run efficiently on real hardware.
+- computer vision + Path 1: train a detector on your own dataset
+- computer vision + Path 5: deploy a vision model to edge hardware
+- language models + Path 2: build a chatbot with a pretrained model
+- language models + Path 3: adapt a model with LoRA
+- speech + Path 3: adapt a model to a specific voice
+- multimodal + Path 2: use a vision-language model
 
-Typical tasks:
+Generative behavior is also cross-cutting:
 
-- exporting models
-- optimizing inference
-- quantization
-- ONNX deployment
-- deploying on embedded or edge hardware
-
-Typical examples:
-
-- deploy a small model on an edge device
-- compare CPU vs GPU vs optimized runtime
-- build a small web service around an optimized model
-- run a small local LLM on an edge-oriented machine
-
-Good tools:
-
-- ONNX Runtime
-- Ollama or llama.cpp
-- JetPack / TensorRT on NVIDIA edge hardware
-- PyTorch export flows
-- Ultralytics export tools
-- Docker
-
-Why this is a good direction:
-
-- very relevant if you are in electronics/ICT
-- strong engineering value
-- good fit with real systems thinking
-
-## 5. Cross-Cutting Theme: Generative Systems
-
-Generative AI is important, but it does not fit neatly as one single application domain next to vision or audio.
-
-It cuts across several areas:
-
-- language generation
+- text generation
 - image generation
 - speech generation
 - music generation
 - multimodal generation
-
-So instead of treating it as one separate modality, it is better to explain it as a **style of model behavior** that can appear in several domains.
 
 ---
 
@@ -585,7 +623,7 @@ If you are unsure, start with one of these:
 - a recommendation app based on embeddings
 - an edge/deployment project using ONNX Runtime or Jetson
 
-These directions are usually easier to scope and demo than reinforcement learning.
+These domains are usually easier to scope and demo than reinforcement learning.
 
 ---
 

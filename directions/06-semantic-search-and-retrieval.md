@@ -1,4 +1,4 @@
-# Direction 6: Semantic Search and Retrieval
+# Domain 4: Semantic Search and Retrieval
 
 ## Good fit if you like
 
@@ -28,3 +28,4 @@
 - start with embeddings and cosine similarity
 - keep the retrieval pipeline understandable
 - focus on one dataset and one clear user task
+- remember that RAG is retrieval first, then generation

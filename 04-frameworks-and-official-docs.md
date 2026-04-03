@@ -4,7 +4,7 @@ This page is a practical starting point if you need to learn a tool quickly.
 
 The idea is simple:
 
-- choose one main direction
+- choose one main domain
 - choose one main model/framework stack
 - start from the official docs
 - build something small first

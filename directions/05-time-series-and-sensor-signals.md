@@ -1,4 +1,4 @@
-# Direction 5: Time-Series and Sensor Signals
+# Domain 7: Time-Series and Sensor Signals
 
 ## Good fit if you like
 
@@ -29,3 +29,4 @@
 - define the task clearly
 - make the output useful and explainable
 - industrial applications are a strong option, but not the only option
+- for this course, this is possible, but less immediately attractive than image, text, or audio

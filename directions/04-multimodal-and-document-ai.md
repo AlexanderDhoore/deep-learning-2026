@@ -1,4 +1,4 @@
-# Direction 4: Multimodal and Document AI
+# Domain 3: Multimodal and Document AI
 
 ## Good fit if you like
 
@@ -27,3 +27,4 @@
 - choose one clear multimodal interaction
 - for example: image + question -> answer
 - keep the workflow understandable
+- vision-language models are especially strong here

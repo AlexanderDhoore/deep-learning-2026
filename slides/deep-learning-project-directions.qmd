@@ -1,5 +1,5 @@
 ---
-title: "Deep Learning 2026: Project Paths, Frameworks, and Directions"
+title: "Deep Learning 2026: Project Paths, Frameworks, and Domains"
 author: "Alexander D'hoore"
 format:
   pptx:
@@ -27,7 +27,7 @@ format:
   - plus the exam
 - The first lesson already introduced you to practical generative AI.
 - The remaining lessons are mainly for building your own project.
-- So today is about **choosing a good direction**.
+- So today is about **choosing a good path and domain**.
 
 ## How You Will Be Evaluated
 
@@ -51,19 +51,18 @@ format:
   - reinforcement learning
   - edge AI and deployment
 
-## Then Choose an Application Direction
+## Then Choose an Application Domain
 
 - After that, choose the domain where you want to apply that path.
-- Good directions include:
+- Good domains include:
   - computer vision
   - text / LLM apps
-  - speech and audio
   - multimodal and document AI
-  - time-series and sensor signals
   - semantic search / retrieval
   - recommendation systems
-  - reinforcement learning
-  - edge deployment
+  - speech and audio
+  - time-series and sensor signals
+  - 3D / depth / geometry
 
 ## A Good Project Formula
 
@@ -160,37 +159,63 @@ Examples:
 - Good tools: ONNX Runtime, JetPack, TensorRT, Ollama, llama.cpp.
 - Strong examples: deploy vision, compare runtimes, run a local LLM.
 
-# Application Directions
+# Application Domains
 
-## Computer Vision
+## What Application Domains Mean
 
-- Probably one of the easiest directions to demo well.
+- A technical path tells you **how** you work with models.
+- An application domain tells you **what kind of data or problem** you work on.
+- One domain can combine with several paths.
+- Example: computer vision can use Path 1, Path 2, or Path 5.
+
+## Domain 1: Computer Vision
+
+- AI for images and video.
 - Typical tasks:
   - classification
   - object detection
   - segmentation
-  - visual inspection
-- Strong frameworks:
+  - depth estimation
+  - keypoint detection
+- Good tools:
   - PyTorch
-  - Ultralytics YOLO
+  - YOLO
   - RF-DETR
   - OpenCV
 
-## Language Models, Chat Systems, and Text Apps
+## Computer Vision: Why It Matters
 
-- Strong option if you want to build something useful quickly.
+- This is an established field, but still extremely powerful.
+- It solves many real industrial problems very well.
+- It also works very well on the GPU hardware you have.
+- Strong examples: inspection, counting, tracking, defect detection.
+
+## Domain 2: Language Models and Text Systems
+
+- This domain is mostly about pretrained or adapted models.
+- Training your own LLM from scratch is usually not realistic.
 - Typical tasks:
   - chatbot
   - summarization
   - classification
+  - question answering
   - tool calling
-  - text transformation
-- Strong frameworks:
+- Good tools:
   - Ollama
   - Transformers
   - Sentence Transformers
 
-## Multimodal and Document AI
+## Language Models: Tool Calling and Apps
+
+- Tool calling means the model can decide when to use another tool.
+- Example tools:
+  - search
+  - calculator
+  - database lookup
+  - API call
+- That can become a whole project by itself.
+
+## Domain 3: Multimodal and Document AI
 
 - This is where language meets images, documents, or audio.
 - Typical tasks:
@@ -198,55 +223,111 @@ Examples:
   - document understanding
   - receipt or invoice reading
   - image-aware assistants
-- Strong frameworks:
+- Good tools:
   - Transformers
   - vision-capable local models
   - document tools such as docTR
+- You already saw a small example of this in the generative AI workshop.
 
-## Semantic Search and Retrieval
+## Multimodal: Example Projects
 
-- This is one of the most practical modern AI directions.
-- It is based on embeddings:
-  - represent items as vectors
-  - compare them by meaning, not only by exact words
+- upload an image and ask questions about it
+- analyze a receipt or invoice
+- build a document question-answering tool
+- combine voice input with image understanding
+
+## Domain 4: Semantic Search and Retrieval
+
+- This domain is based on embeddings.
+- An embedding is a vector representation of text, image, or audio.
+- Similar meaning leads to nearby vectors.
 - Typical projects:
   - semantic search
   - retrieval-augmented chatbot
   - similar-item finder
 
-## Recommendation Systems
+## Semantic Search: Why It Works
 
-- This direction is closely related to embeddings, but the user experience is different from search.
+- You do not search only by exact words.
+- You search by meaning.
+- This is useful for:
+  - documents
+  - notes
+  - images
+  - other media
+
+## RAG: Retrieve First, Then Generate
+
+- Retrieval-augmented generation is part of this domain.
+- First retrieve the most relevant documents.
+- Then send that context to the language model.
+- Then generate the answer with better grounding.
+
+## Domain 5: Recommendation Systems
+
+- This domain is closely related to embeddings, but the user experience is different from search.
 - Typical projects:
   - music or media recommender
   - product recommendation demo
   - similar-item recommender
   - recommendation UI based on embeddings
 
-## Speech, Audio, and Time-Series
+## Recommendation Systems: Why They Matter
 
-- Good directions if you like signals rather than only text or images.
-- Audio examples:
+- Recommendation is everywhere on the modern web.
+- Modern recommenders often use embeddings and ranking.
+- This can be a very strong project if you like music, media, or product ideas.
+
+## Domain 6: Speech and Audio
+
+- This domain can use Path 1, Path 2, or Path 3.
+- Typical tasks:
   - speech-to-text
   - text-to-speech
   - sound classification
-- Time-series examples:
+  - music generation
+  - voice adaptation
+- Good tools:
+  - Whisper
+  - torchaudio
+  - Transformers
+  - TTS libraries
+
+## Speech and Audio: Example Projects
+
+- voice note transcriber
+- speech-based chatbot
+- sound-event detector
+- text-to-speech assistant
+- music generation demo
+
+## Domain 7: Time-Series and Sensor Signals
+
+- This is more industrial and less flashy, but still important.
+- Typical tasks:
   - anomaly detection
   - forecasting
   - sensor monitoring
+- It is especially relevant if you already have an interesting dataset.
+- For this course, it is possible, but probably less attractive than image, text, or audio.
 
-![](media/time-series-data-graph.jpg)
+## Domain 8: 3D, Depth, and Geometry
 
-## Generative Systems Are Cross-Cutting
+- This is a more niche domain, but it exists.
+- Examples:
+  - depth estimation
+  - image-to-3D
+  - text-to-3D
+  - 3D generation workflows
+- Some interesting pretrained models already exist here.
 
-- Generative AI is important, but it is not one single modality.
-- It can appear in:
-  - text generation
-  - image generation
-  - speech generation
-  - music generation
-  - multimodal generation
-- So instead of treating it as one separate box, think of it as a **style of model behavior** across several domains.
+## Paths and Domains Can Be Combined
+
+- Computer vision can use Path 1, Path 2, or Path 5.
+- Language models usually fit Path 2 or Path 3.
+- Audio can use Path 1, Path 2, or Path 3.
+- Edge deployment can apply to many domains.
+- Generative behavior can appear in text, image, audio, or multimodal systems.
 
 # Framework Suggestions
 

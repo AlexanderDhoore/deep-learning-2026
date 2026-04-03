@@ -1,4 +1,4 @@
-# Direction 1: Computer Vision
+# Domain 1: Computer Vision
 
 ## Good fit if you like
 
@@ -14,6 +14,8 @@
 - image classifier
 - defect detection demo
 - segmentation app
+- depth estimation demo
+- keypoint detection demo
 - people or object counter
 - pose estimation demo
 
@@ -33,3 +35,4 @@
 - keep the dataset small
 - focus on one clear task
 - make the output visual
+- this is an established field, but still extremely powerful in practice

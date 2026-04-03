@@ -1,4 +1,4 @@
-# Direction 7: Recommendation Systems
+# Domain 5: Recommendation Systems
 
 ## Good fit if you like
 
@@ -27,3 +27,4 @@
 - start with a simple content-based approach
 - keep the recommendation logic understandable
 - focus on one dataset and one clear user experience
+- embeddings are often the core building block here

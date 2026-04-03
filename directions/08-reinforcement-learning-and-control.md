@@ -1,4 +1,4 @@
-# Direction 8: Reinforcement Learning and Control
+# Technical Path: Reinforcement Learning and Control
 
 ## Good fit if you like
 
@@ -24,5 +24,5 @@
 
 - keep the environment simple
 - do not overscope
-- this direction is interesting but riskier than most others
+- this path is interesting but riskier than most others
 - Stable-Baselines3 is the safest starting point for most projects

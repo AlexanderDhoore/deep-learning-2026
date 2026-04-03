@@ -1,4 +1,4 @@
-# Direction 2: Language Models and LLM Apps
+# Domain 2: Language Models and Text Systems
 
 ## Good fit if you like
 
@@ -28,3 +28,5 @@
 - narrow the scope
 - avoid trying to build a general chatbot for everything
 - give the app one clear purpose
+- this domain usually relies on pretrained or fine-tuned models
+- tool calling is powerful enough to become a whole project by itself

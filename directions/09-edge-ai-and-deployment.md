@@ -1,4 +1,4 @@
-# Direction 9: Edge AI and Deployment
+# Technical Path: Edge AI and Deployment
 
 ## Good fit if you like
 
